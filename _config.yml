@@ -25,7 +25,7 @@ description: A professional site for Robert Dinterman, economics PhD candidate a
 navbar-links:
   About Me: "aboutme"
   Research: "research"
-  Teaching: "teaching"
+  Teaching: #"teaching"
     - Econometrics: "teaching/metrics"
     - Macroeconomics: "teaching/macro"
     - Spatial Statistics: "teaching/spatial"
