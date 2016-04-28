@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Ethanol Plant Fires/Explosions</name>
+  <description><![CDATA[Total Current Capacity at 214 ethanol producing biorefineries. Under Construction 5 /Expansions(?) Updated: Dec 19, 2010 Source: Ethanol Producer Magazine.
+
+Map Compiled by John Astad, Director/Research Analyst, Combustible Dust Policy Institute www.combustibledust.com]]></description>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/sunny.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/sunny.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/ms/micons/firedept.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>New Energy Corporation</name>
+    <description><![CDATA[<div dir="ltr">12/30/2010 Fire <a href="http://www.southbendtribune.com/article/20101230/News01/101239970/0/XML" target="_blank">not clear at this point exa</a>ctly what caught fire inside the building<br><br>South Bend, Indiana</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-86.293213,41.653820,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bushmills Ethanol</name>
+    <description><![CDATA[11/4/2010-<a href="http://ksax.com/article/stories/S1822544.shtml?cat=10268" target="_blank">fire&nbsp; on the conveyor </a>belt, During the fire,&nbsp;a piece of the belt dropped into the large bin of corn below.<br><br>Prior fire 10/24/2009 after a natural gas leak sparked<br><br><a href="http://maps.google.com/maps/place?ftid=0x52b540a519817a3b:0xce29d0a056274286&amp;q=Atwater,+Minn&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=sfQrTc76BpTUowTmj8i5Cg&amp;dtab=5" target="_blank">Atwater, MN 56209<br></a>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-94.608765,45.116177,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet Refining</name>
+    <description><![CDATA[10/13/2010-<a href="http://www.connectmidmichigan.com/news/story.aspx?list=194382&amp;id=525554" target="_blank">Fire, </a><span><a href="http://www.connectmidmichigan.com/news/story.aspx?list=194382&amp;id=525554" target="_blank">the ductwork</a> between the dryers and thermal oxydizer caught fire.</span><br><br><a href="http://maps.google.com/maps/place?ftid=0x88241b6d368d1bb1:0xbdd502f864923c23&amp;q=Caro,+MI&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=cJguTabVLIn6tgP-o8yOAw&amp;dtab=5" target="_blank">Caro, MI 48723<br></a>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-83.396896,43.491131,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Appomattox Bio Energy /Osage Bio Energy.</name>
+    <description><![CDATA[<a href="http://www.nbc12.com/global/story.asp?s=13128231" target="_blank">9/8/2010- Explosion, </a>"We had some vapors back-up and the vapors were in a device that has a 
+burner in it and so the vapors ignited," said company spokesperson, John
+ Warren.<br><br><a href="http://maps.google.com/maps/place?ftid=0x89b1a9e2c99f5301:0x6009c778de2f697&amp;q=Hopewell,+Virginia,&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=r-ArTZXaAYjEpQTi1I2tCg&amp;dtab=5" target="_blank">Hopewell, VA<br></a>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-77.287201,37.304314,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet Ethanol </name>
+    <description><![CDATA[8/23/2010-Dust explosion. Issue with a feed dryer. Workers were taking down the dryer when a small
+ amount of dust from moving the dryer ignited and caused the explosion.<br><br><a href="http://maps.google.com/maps/place?ftid=0x878edbc6df5f1403:0x8a55e46e3b1dc390&amp;q=Chancellor,+SD&amp;gl=us&amp;hl=en&amp;cad=src:ppiwlink&amp;ei=A-IrTb6GKIPGpQT82bWyCg&amp;dtab=5" target="_blank">Chancellor, SD 57015<br></a>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-96.987000,43.372204,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>BioFuel Energy/Buffalo Lake Energy</name>
+    <description><![CDATA[1/31/10<a href="http://www.fairmontsentinel.com/page/content.detail/id/507332.html" target="_blank">-explosion/fire</a>. fire was on the top-third portion of the east dryer <br><br>Fairmont, MN 56031<br><br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-94.492645,43.648716,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Didion Milling Inc</name>
+    <description><![CDATA[1/8/10-<a href="http://www.nbc15.com/news/headlines/81053187.html" target="_blank">fire </a><span name="storyText"><a href="http://www.nbc15.com/news/headlines/81053187.html" target="_blank">limited to an outdoor grain dry</a>er.</span><span name="storyText"> Failed bearing which subsequently caused the whole corn in the dryer to begin to smolder.  Damages are estimated at $5,000 a</span>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-89.108620,43.543205,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lincoln Land Agri-Energy LLC</name>
+    <description><![CDATA[12/14/09-<span style="border-collapse:separate;color:rgb(0, 0, 0);font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><span style="font-family:verdana,Helvetica,sans-serif;font-size:11px;text-align:left">f<a href="http://www.tribstar.com/breakingnews/local_story_348112054.html" target="_blank">lash fire” explosion </a></span></span><span style="border-collapse:separate;color:rgb(0, 0, 0);font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px"><span style="font-family:verdana,Helvetica,sans-serif;font-size:11px;text-align:left"><a href="http://www.tribstar.com/breakingnews/local_story_348112054.html" target="_blank">i</a>nvolved one of the dryers used to dry distillers grains,<span> <br></span></span></span>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-87.626831,39.006119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glacial Lakes Energy LLC</name>
+    <description><![CDATA[11/2/09-<a href="http://www.ksfy.com/news/local/68886092.html" target="_blank">fire, after a corn drye</a>r got plugged up on the bottom, which caused the dryer to overheat.<br><br> limited damage.<br>No one was hurt.<br>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-97.080688,45.007534,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bushmills Ethanol Inc-Co-op</name>
+    <description><![CDATA[10/24/09-<a href="http://www.kare11.com/news/news_article.aspx?storyid=827168&amp;catid=391" target="_blank">explosion happened w</a>hen natural gas that supplies the plant somehow sparked.  <br><br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=atwater,mn&amp;vps=2&amp;jsv=180e&amp;sll=46.413245,-93.982544&amp;sspn=0.730944,1.74408&amp;ie=UTF8&amp;ei=6zHjSufVB4i2sAOwyOH9CQ&amp;sig2=5V5cpc4WM6ilbu2LFCXOZA&amp;dtab=5" target="_blank">Atwater, MN<br></a>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-94.777779,45.136665,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pinal Energy LLC</name>
+    <description><![CDATA[10/6/09-dust explosion<span style="display:inline-block;width:100%"><a href="http://www.inmaricopa.com/NEWS/NewsArticleDetails.aspx?ArticleID=6798&amp;&amp;mid1=390" target="_blank">&nbsp; possible
+result of dust particle</a>s being ignited by a heating system used in the
+drying process. The system dries the corn by-product prior to
+processing it into ethanol</span><span style="display:inline-block;width:100%">The fire-suppression
+system, which is made up of two parts, includes pressure relief lids on
+top of the silos and elevators and a quencher system, which, if
+activated, starts a streaming water deluge process to extinguish any
+fire to prevent it from spreading</span><span style="display:inline-block;width:100%">.<br>Maicopa, AZ<br><br></span>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-112.007195,33.030415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Illinois River Energy LLC</name>
+    <description><![CDATA[10/5/09-<a href="http://www.rochellenews-leader.com/v2_news_articles.php?heading=0&amp;page=72&amp;story_id=3503" target="_blank">Fire-residue from dried distil</a>led grains built up in the duct work and
+firefighters extinguished flames in approximately 300 feet of the duct
+work.]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-89.024834,41.862614,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet LLC </name>
+    <description><![CDATA[<a href="http://www.ktiv.com/Global/story.asp?S=11245668" target="_blank">10/2/09- fire was</a> minor and caused only minimal damage. No one was hurt.started in duct work near pollution control equipment<br><br><br><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=GROTON,+S.D.&amp;vps=4&amp;jsv=178b&amp;sll=6.022546,-144.791945&amp;sspn=111.444086,223.242188&amp;ie=UTF8&amp;ei=rGPGSsOJBaH-zQSfj4Vj&amp;sig2=NESYXf8tGT8j_jZvU0F7eA&amp;dtab=5" target="_blank">GROTON, S.D.</a>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-98.103386,45.452293,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Didion Ethanol Plant.</name>
+    <description><![CDATA[9<a href="http://www.wiscnews.com/bdc/business/464627" target="_blank">/14/09-fire smoldered in</a>side a thermal oxidizer inside the ethanol plant.The thermal oxidizer is designed to burn away corn dust and other
+residue before the air is released into the atmosphere via a stack
+attached to the equipment.]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-89.110611,43.543407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Collingwood Ethanol LP</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://www.theenterprisebulletin.com/ArticleDisplay.aspx?e=1566679" target="_blank">5/13/09-“small dust fire”</a> in a silo. Minor dust explosion and small fire broke out on top of a silo There were explosion doors on one vessel, and they appear to have functioned properly.</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-80.192276,44.497967,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bartow Ethanol Inc</name>
+    <description><![CDATA[<a href="http://www2.tbo.com/content/2009/apr/24/241219/bartow-complex-evacuated-after-ethanol-explosion/news-breaking/" target="_blank">4/24/09-tank contain</a>ing alcohol exploded near the rear of an ethanol plant, officials said<br><br> 11/12/09<a href="http://www.theledger.com/article/20091112/NEWS/911125046/1178?Title=Bartow-Ethanol-Reopens-After-Explosion-Fire" target="_blank"> Bartow Ethanol is back in business</a><br>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-81.828506,27.875212,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>POET Biorefining Inc.</name>
+    <description><![CDATA[<a href="http://www.marionstar.com/article/20090417/UPDATES01/90417006" target="_blank">4/17/09- "high temperature event"</a> in a dryer. It was not a fire.An automatic snuffing system was activated that brought the temperature back to an acceptable level.]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-83.163383,40.620304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chief Industries</name>
+    <description><![CDATA[<div dir="ltr"><a href="http://omaha.cox.net/cci/newslocal/local?_mode=view&amp;view=LocalNewsArticleView&amp;articleId=3938826&amp;_action=validatearticle" target="_blank">3/5/09-minor explosion . A spok</a>esman for Chief Industries says the men were doing maintenance on a <a href="http://www.1011now.com/news/headlines/40849542.html" target="_blank">grain grinder and </a>when they opened the door, a small explosion occurred. The two men were taken to a Hastings hospital with burns from the flash explosion, the extent of which is unknown. The cause is being investigated by company officials<br><br>2 injuries<br><br>Hastings, NE</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-98.418961,40.617340,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tharaldson Ethanol Plant </name>
+    <description><![CDATA[2/28/2009-<a href="http://www.kxmb.com/getArticle.asp?ArticleId=338424" target="_blank"> fire contained to a dust c</a>ollection bin/<a href="http://www.msnbc.msn.com/id/29442090/" target="_blank">drying system.</a> Firefighters put out the smoldering fire Saturday morning by dumping water into the top of the bin. There were no injuries.It was the second incident at the plant <br><br>Casselton, N Dakota<br>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-97.211365,46.900505,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Badger State Ethanol</name>
+    <description><![CDATA[<a href="http://gazettextra.com/news/2009/jan/20/fire-rips-monroe-ethanol-plant/" target="_blank">1/19/09-fire in the grain handl</a>ing area. Monroe Fire Chief Daryl Rausch said
+crews quickly controlled the fire in a germ dryer and bagging
+processor. But the fire extended into the grain handling ductwork and
+spread to other pieces of equipment.<br><br>“I think the feed we already fed into it got so dry, so extremely dry,
+that when we lit the burner there must have been a spark from the
+ignitor or burner itself that went into the dryer,”&nbsp; general manager Gary Kramer&nbsp; said. “There was
+a significant boom, the blast <a href="http://www.journalstandard.com/news/x497800127/8-hours-to-battle-plant-fire?popular=true" target="_blank">doors lifted, and that’s when the fire
+started.</a>”<br>The fire actually started in what we refer to as the fuel bed
+cooler,” Kramer said. “After the feed is heated and dried it goes
+through the cooler before it goes into a silo or storage unit.” "The fire was likely caused by a dust explosion in the fuel
+bed cooler caused by a spark. Though stripped of alcohol, corn protein
+is still combustible."<br><br><br>Monroe, WI 53566<span name="attr"><a href="/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Badger+State+Ethanol+&amp;jsv=142c&amp;sll=37.0625,-95.677068&amp;sspn=46.543597,78.398437&amp;ie=UTF8&amp;latlng=42595783,-89649442,3896578293982469936&amp;ei=13h2SYz5JIbaNtK_wPUK&amp;sig2=5O3MSurt3XsjCIXSE5oBRA&amp;cd=1" target="_blank"><br></a></span>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-89.677620,42.609581,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet ethanol plant</name>
+    <description><![CDATA[<div dir="ltr">1<a href="http://www.mitchellrepublic.com/articles/index.cfm?id=31349&amp;section=news" target="_blank">/15/09--Flames broke</a> out on a drier , but the fire was contained within a couple of hours “Some grain in the drier got too hot and it caught on fire,” he said.
+“Our team responded to the fire, which they are trained for. We decided
+as a safety precaution to contact the fire department and they helped
+us put it out.”&nbsp; <br><br>Loomis,South Dakota<br></div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-98.104561,43.787270,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pinal Energy LLC</name>
+    <description><![CDATA[<div dir="ltr">12/29/<a href="http://www.azcentral.com/community/chandler/articles/2008/12/29/20081229gr-explosion1229.html" target="_blank">08-Explosions at a grain elevator.welders were w</a>orking on a tower near a grain elevator when hot metal
+apparently hit a device used to scoop grain out of the elevator,
+igniting corn dust and causing an explosion. A second, much larger
+explosion occurred moments later when more corn dust ignited,<br><br>3 injuries<br></div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-112.028152,33.043510,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glacial Lakes Energy LLC</name>
+    <description><![CDATA[<font color="#000000" size="2">
+
+
+<p> 1<a href="http://www.kmeg.com/global/story.asp?s=9572605" target="_blank">2/23/08-fire in a corn dryer </a>.No injuries were reported.Assistant Fire Chief Doug Kranz says an alert staff moved on the fire quickly.Kranz says the fire was in 1 of the larger corn dryers and that
+damage was limited to the dryer. He says the dryer appears structurally
+intact but the amount of damage is not known.</p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p></font>Watertown, SD 57201<span name="attr"><a href="/maps?f=q&amp;hl=en&amp;geocode=&amp;q=Glacial+Lakes+Energy+&amp;jsv=140g&amp;sll=37.0625,-95.677068&amp;sspn=45.284089,78.398437&amp;ie=UTF8&amp;latlng=44876243,-97113381,11019553956587617146&amp;ei=WXJRSbLRC4uMNoP-kPoM&amp;sig2=piWScYuwjnGe2bY_gi65eg&amp;cd=2" target="_blank"><br></a></span>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-97.110901,44.846134,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>East Kansas Agri Energy </name>
+    <description><![CDATA[<div dir="ltr">1<a href="http://www.wibw.com/localnews/headlines/36268879.html" target="_blank">2/16/08-Ethanol Explosion</a> <span><a title="Lee Miller" href="http://www.wibw.com/searchresults?searchKeywords=Lee+Miller" target="_blank">Garnett Fire Chief Lee Miller</a>
+says there was no fire or injuries. Also, there was no damage to the
+exterior of the building. The plant is investigating the explosion</span> <br><br>Garnett, KS</div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-95.249260,38.285042,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Manildra Ethanol plant</name>
+    <description><![CDATA[<img style="width:249px" src="http://www.abc.net.au/reslib/200709/r185396_689718.jpg"><br><br><a href="http://www.abc.net.au/news/stories/2008/12/10/2442299.htm" target="_blank">12/10/08-explosion at th</a>e largest ethanol distillery in Australia .One person has been injured .<span> Primary feedstock for Manildra's ethanol production is <a href="http://www.parliament.nsw.gov.au/prod/lc/qalc.nsf/962613d55d0cee2aca257146008027f7/90c035eada6caec6ca25745d00254c7b%21OpenDocument" target="_blank">waste starch from its food production operations.</a><br></span><font size="2">1<br>2/8/08-<a href="http://www.smh.com.au/news/national/libs-fume-at-tripodi-bid-to-overturn-ethanol-deal/2008/12/07/1228584656056.html" target="_blank">Libs fume at</a></font><a href="http://www.smh.com.au/news/national/libs-fume-at-tripodi-bid-to-overturn-ethanol-deal/2008/12/07/1228584656056.html" target="_blank"> </a><font size="2"><a href="http://www.smh.com.au/news/national/libs-fume-at-tripodi-bid-to-overturn-ethanol-deal/2008/12/07/1228584656056.html" target="_blank">Tripodi b</a>id to overturn ethanol deal</font><br><br>1 injury<br><br>Bomaderry, NSW 2541<br>Australia<br><span name="attr"></span><strong>1991 </strong>- <strong>Ethanol </strong>(Industrial alcohol) plant commences production at the <strong>Nowra site.</strong><p> </p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>150.608383,-34.855412,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Greater Ohio Ethanol </name>
+    <description><![CDATA[<div dir="ltr">1<a href="http://www.limaohio.com/news/fire_30737___article.html/plant_ohio.html" target="_blank">1/11/08-dust-fueled fir</a>e in ductwork for the main dryer building.the fire was contained within the duct, a large pipe that carries heat
+to and from the grain dryers, and no injuries were reported."It was a sealed duct system, so basically all we were doing was
+cooling the outside and taking the heat away so we could get the fire
+to die down on its own," he said.<br><br><a href="http://www.biofuelsdigest.com/blog2/2008/03/06/greater-ohio-ethanol-plant-to-open-as-ohio-ethanol-production-boom-peaks-future-project-pipeline-dries-up/" target="_blank">opened May 2008</a><br><br>Lima, OH</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-84.113319,40.742741,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Central Minnesota Ethanol Co-op.</name>
+    <description><![CDATA[1<a href="http://mcrecord.com/main.asp?Search=1&amp;ArticleID=45816&amp;SectionID=2&amp;S=1" target="_blank">0/29/08-explosion in a wood chip s</a>torage silo .<font color="#000000" size="2" face="ARIAL, SANS SERIF"><font size="2"><font face="Verdana, Arial, Helvetica, sans-serif">Little
+Falls Fire Chief Mike Nieman said the explosion and fire were most
+likely caused by spontaneous combustion in the 94-foot cement silo
+packed with wood chips. The wood chips are used to fuel the plant's
+gasification system.</font></font></font><br><br>Little Falls, MN<br>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-94.339493,46.021904,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet Biorefining Michigan Ethanol LLC</name>
+    <description><![CDATA[<span></span>9/2<a href="http://www.tuscolatoday.com/news/2008/sep/29/firefighters-battle-hot-spots/" target="_blank">3/08- fire while the plan</a>t was shutting down for a routine cleaning when several “hot spots” were detected in the ductwork. Their suppression system kicked in and that really cut down on the extent of the fire,” said Caro Fire Chief David Mattlin.<br><br>no injuries<br>little damage $<br><span><br>Caro</span>, <span>MI</span> <span>48723</span><span name="attr"><a href="/maps?f=q&amp;hl=en&amp;geocode=&amp;q=Poet+Biorefining&amp;jsv=130d&amp;sll=37.0625,-95.677068&amp;sspn=45.284089,78.398437&amp;ie=UTF8&amp;latlng=43473602,-83409542,18296671382793111035&amp;ei=N27hSNvMD6TovAPnpvjkBQ&amp;sig2=Xolk7lAwRVvLH-l8TZbg1w&amp;cd=13" target="_blank"><br></a></span>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-83.409538,43.473602,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Glacial Lakes Energy</name>
+    <description><![CDATA[<img style="width:223px" src="http://www.glaciallakesenergy.com/images/mina_contact.jpg"><span></span>8<a href="http://www.istockanalyst.com/article/viewiStockNews+articleid_2565298.html" target="_blank">/30/08-fire struck corn i</a>n one of the grain bins,  An <span style="font-weight:bold">electrical motor </span>is to blame for a fire. <a href="http://www.istockanalyst.com/article/viewarticle+articleid_2566112.html" target="_blank">Mike Olson, a firefighter with the Ipswich Fire Department, sa</a>id
+the fire started at the motor at the bottom of one of
+the<span style="font-weight:bold"> grain bins s</span>tarted the corn on fire."It was more of a
+smoldering fire than anything," he said. "We had to wait for them to
+get the good corn out before we could get in there."Damage was limited to the electrical motor, he said.   "It wasn't real bad," he said.<br><span><br>Mina</span>, <span>SD</span> <span>57451</span><span name="attr"><a href="/maps?f=q&amp;hl=en&amp;geocode=&amp;q=Glacial+Lakes+Energy&amp;jsv=125&amp;sll=37.0625,-95.677068&amp;sspn=58.555544,113.203125&amp;ie=UTF8&amp;latlng=45442156,-98784020,13431174857536293338&amp;ei=nuG6SPi5IYemigHtpa2yAw&amp;sig2=_Sy1GZhTn5qfkoNQ1tJM6Q&amp;cd=1" target="_blank"><br></a></span>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-98.784019,45.442158,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Abengoa Bioenergy</name>
+    <description><![CDATA[<img style="width:239px" src="http://www.abengoabioenergy.com/about/graphics/us-facilities-york-large.jpg"> 
+<div>&nbsp;</div>
+<div>7<a href="http://www.yorknewstimes.com/news/x1346876825/Night-fire-fought-at-ethanol-plant" target="_blank">/2/08-&nbsp;fire (dryer) was contained</a> to a “tube” that is approximately three to four feet in diameter.<a href="http://plant-explosions-news.newslib.com/story/4947-3235727/" target="_blank">Fire that was confined to the dryer ductwork,”</a>The fire began in a ventiliation tube about 25 feet above the floor in the middle of the plant after high winds caused a loss of electrical power, York Fire Chief Kevin Stuhr said.<br><br>“When they lost power, the flow of that heat stopped and insulation and stuff started burning on that tube. I think everything was confined to the tube.”</div>
+<div>&nbsp;</div>
+<div>“<a href="http://www.journalstar.com/articles/2008/07/02/news/nebraska/doc486b90cd61d85428914494.txt" target="_blank">The only thing I can say</a> is that we did have a fire that was confined to the dryer ductwork,” Abengoa executive vice president based in St. Louis, said</div>
+<div>&nbsp;</div>
+<div>no injuries</div>
+<div>no structural damage to the plant</div>
+<div>&nbsp;</div>
+<div>York, NE 68467<br>&nbsp;</div>
+<div>&nbsp;</div>
+<div><u><font color="#0000cc">Abengoa is the</font></u><a href="http://www.abengoabioenergy.com/about/index.cfm?page=12&amp;loc=1&amp;lang=1" target="_blank">5th largest producer of Bioethanol</a> in the United States.</div><a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1414+Road+O,+York,+NE+68467&amp;jsv=117&amp;sll=44.032136,-76.052942&amp;sspn=0.022184,0.041499&amp;ie=UTF8&amp;latlng=&amp;ei=ycBsSOv6IoeujgHipZn-BQ&amp;sig2=-I6PtG7zbnD3n7m3eWgvTw&amp;dtab=5" target="_blank"></a>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-97.539719,41.004662,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name> Andersons Albion Ethanol </name>
+    <description><![CDATA[<div dir="ltr">6<a href="http://www.wwmt.com/news/calhoun_1350736___article.html/county_explosion.html" target="_blank">/27/08-explosion (dryer) in an</a> ethanol plant leads causes some minor injuries.The explosion occurred in one of the dryers.caused some damage to the dryer and structure <br><br>The Andersons, Inc. is the largest equity investor in The Andersons
+		Albion Ethanol LLC, which opened in August 2006, adjacent to The Andersons’ grain
+		elevator in Albion, Michigan. 
+          <p>The
+Andersons manages the 55 million gallon dry mill fuel ethanol plant
+which requires 20 million bushels of corn to operate and produces
+155,000 tons of distiller dried grains annually.</p></p><p></p></p><p></p></p><p></p></p><p>injuries<br></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><p></p></p><a href="http://www.andersonsethanol.com/albion.asp" target="_blank">Sheridan Township,MI</a></div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-84.753036,42.246651,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Poet Biorefining Mitchell</name>
+    <description><![CDATA[<IMG style="width:239px" src="http://www.poetenergy.com/files/plant_files/PRAwebaerial.jpg">
+<DIV><SPAN>01/03/2008- <FONT color="#0000cc">Flash Fire </FONT><A href="http://www.keloland.com/NewsDetail6162.cfm?Id=0,64893" target="_blank">One worker suffered minor burns&nbsp;</A></SPAN><SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN>1 injury</SPAN></DIV>
+<DIV style="margin-top:4px;margin-bottom:0px;font-family:Arial,Helvetica">&nbsp;<A href="http://www.poetenergy.com/about/showPlant.asp?id=25" target="_blank">Poet</A> Biorefining Mitchell</DIV>
+<DIV style="margin-top:4px;margin-bottom:0px;font-family:Arial,Helvetica">&nbsp;</DIV>
+<DIV style="margin-top:4px;margin-bottom:0px;font-family:Arial,Helvetica">14+</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;<SPAN>Loomis,S.D.</SPAN></DIV>
+<DIV><SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN><A href="http://www.osha.gov/pls/imis/establishment.inspection_detail?id=310584636" target="_blank">OSHA History</A></SPAN></DIV>
+<DIV><SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN><TR><TD colspan="3" nowrap="nowrap"><STRONG>SIC: 2869</STRONG>/Industrial Organic Chemicals, Not Elsewhere Classified</SPAN></DIV>
+<DIV><SPAN></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR><TR><TD colspan="4"><STRONG>NAICS: 325193/</STRONG>Ethyl Alcohol Manufacturing</TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TD></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></TR></SPAN></DIV>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-98.104240,43.803158,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pine Lake Corn Processors</name>
+    <description><![CDATA[<img style="width:239px" src="http://www.wcfcourier.com/content/articles/2008/04/21/business/local/10273843.jpg"> 
+<div><a href="http://www.wcfcourier.com/articles/2008/04/21/business/local/10273843.txt" target="_blank">12/07-(Dryer)explosion destroyed</a> the distiller's grain dryer at the ethanol plant. No one was injured, but the blast shook people in their beds up to a mile away, Meints said, and caused millions of dollars in damage.</div>
+<div>&nbsp;</div>
+<div>No injuries</div>
+<div>Damage millions dollars est.</div>
+<div>&nbsp;</div>
+<div>Steamboat Rock, IA 50672</div>
+<div>&nbsp;</div>
+<div>41 plants IA<br>&nbsp;</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-93.055733,42.455448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Central Minnesota Ethanol Co-op </name>
+    <description><![CDATA[<div dir="ltr">1<a href="http://www.ethanolproducer.com/article.jsp?article_id=3365" target="_blank">0/27/07-fire and explosion </a>. Damage was contained to a biomass gasification
+system. Four employers were
+working at the time of the explosion which was in a silo feeding the
+gasification system.
+<br><br>Little Falls, MN</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-94.362564,45.976498,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>AGP ethanol plant </name>
+    <description><![CDATA[<DIV dir="ltr">7/29/06-Dryer Fire, A fire in a soybean meal dryer kept about 30 firefighters busy <BR><BR><A href="http://www.agp.com/employment/" target="_blank">Hastings, NE</A></DIV>
+<DIV dir="ltr">&nbsp;</DIV>
+<DIV dir="ltr"><TR><TD nowrap="nowrap" colspan="3"><STRONG>SIC: 2869</STRONG>/Industrial Organic Chemicals, Not Elsewhere Classified</DIV>
+<DIV dir="ltr"></TD></TD></TD></TD></TD></TD></TD></TD></TR></TR></TR></TR></TR></TR></TR></TR><TR><TD colspan="4"><STRONG>NAICS: 325193</STRONG>/Ethyl Alcohol Manufacturing</DIV>
+<DIV dir="ltr">&nbsp;</DIV>
+<DIV dir="ltr">24 plants NE</TD></TD></TD></TD></TD></TD></TD></TD></TR></TR></TR></TR></TR></TR></TR></TR></DIV>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-98.392693,40.585800,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Badger State Ethanol,</name>
+    <description><![CDATA[<img style="width:239px" src="http://www.badgerstateethanol.com/images/2002_sep/01_lg.jpg"> 
+<div><font color="#0000cc"><u>7/24/07-(Silo) explosion/ </u></font><font color="#000000">fire caused significant damage and collapse of burning material inside the silo caused a small smoke and dust explosion.<font face="Verdana" size="3"> according to<a href="http://homepage.mac.com/oscura/ctd/docs/072407mtsilofire.pdf" target="_blank"> <font face="Verdana" size="3">Monroe Fire Chief Daryl Rausch</font></a></font></font><u><font color="#0000cc"></font></u></div>
+<div><u><font color="#0000cc"></font></u>&nbsp;</div>
+<div><u><font color="#0000cc">Monroe, WI</font></u></div>
+<div><u><font color="#0000cc"></font></u>&nbsp;</div>
+<div><u><font color="#0000cc">9 plants WI</font></u><a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=MONROE,+Wis&amp;jsv=111&amp;sll=45.86775,-96.729984&amp;sspn=0.021486,0.04343&amp;ie=UTF8&amp;latlng=&amp;ei=OtswSMrhH4eujgGUouWWDg&amp;sig2=wc4ixtDBL4NFeuOeiIQy4A&amp;dtab=5" target="_blank"></a></div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-89.601746,42.592522,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Big River Resources LLC</name>
+    <description><![CDATA[<DIV dir="ltr"><A href="http://www.c4aqe.com/Dangers/Fire_breaks_out_at_ethanol_plant_wqad.com_9.22.05.htm" target="_blank">9/21/05-fire started</A> in a bin that is used to dry animal feed </DIV>
+<DIV dir="ltr">&nbsp;</DIV>
+<DIV dir="ltr">plant worker and a firefighter -- suffered minor injuries<BR><BR><BR>West Burlington, IA</DIV>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-91.157181,40.826019,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Heartland Grain Fuels</name>
+    <description><![CDATA[<IMG src="http://www.icminc.com/images/portfolio/medium/111HeartlandGrainFuels.jpg">
+<DIV>11/14/04-<SPAN><FONT face="Verdana"><A href="http://nl.newsbank.com/nl-search/we/Archives?p_product=AB&amp;s_site=aberdeennews&amp;p_multi=AB&amp;p_theme=realcities&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=106D56565701DE97&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM" target="_blank">dryer fire&nbsp; The extent</A> of damage wasn't known,</FONT></SPAN></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><A href="http://www.distillersgrains.com/heartlandGrainFuels.htm" target="_blank">Aberdeen, SD</A></DIV>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-98.487320,45.459091,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Michigan Ethanol /Poet</name>
+    <description><![CDATA[<IMG src="http://www.ethanolrailroad.com/images/plants/broin_16.jpg"> 
+<DIV>5/24/04-<STRONG>(</STRONG>Dryer) fire&nbsp; grain <B>dryer </B>during a routine <B>dryer</B> shutdown, Four firefighters were treated for heat exhaustion during the course of fighting the 16-hour fire which was reported at 1:56 p.m. on Monday. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>The facility has previously run into problems with nearby residents, claiming odor and noise problem</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Caro, MI</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;<B>From: </B><A href="http://www.highbeam.com/doc/1P3-928179081.html?refid=blog_5581781" target="_blank">MICHIGAN ETHANOL PLANT EXPERIENCES FIRE</A> by Gantz, Rachel<BR><B>Source: </B>Renewable Fuel News, 5/24/2004.<BR><B>Via: </B><A href="http://www.highbeam.com/" target="_blank"><IMG alt="HighBeam Research Logo" src="http://www.highbeam.com/img/h-icon-small.gif" align="baseline" border="0"></A> HighBeam™ Research<BR>Copyright Hart Energy Publishing, LP Feb 20, 2006</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5 plants MI</DIV>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-83.396759,43.488701,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Great Plains Ethanol/Poet</name>
+    <description><![CDATA[<IMG src="http://www.ethanolrailroad.com/images/plants/broin_18.jpg">
+<DIV>3/14/04-(Dryer) small <B>fire</B> Experienced a power outage approximately at 2 am&nbsp; Rick Serie, general manager for the <B>plant</B>, said. At the same time, a <B>fire</B> started when feed ignited in the<STRONG> dryers,</STRONG> he said.Not much was damaged at the <B>plant</B> and no one was hurt, Serie added. The <B>ethanol</B> <B>plant</B> was only down for about 30 hours, </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>no injuries</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><B>From: </B><A href="http://www.highbeam.com/doc/1P3-924634171.html?refid=blog_5581781" target="_blank">SMALL FIRE BREAKS OUT AT GREAT PLAINS ETHANOL IN SOUTH DAKOTA</A> by Gantz, Rachel<BR><B>Source: </B>Renewable Fuel News, 3/22/2004.<BR><B>Via: </B><A href="http://www.highbeam.com/" target="_blank"><IMG alt="HighBeam Research Logo" src="http://www.highbeam.com/img/h-icon-small.gif" align="baseline" border="0"></A> HighBeam™ Research<BR>Copyright Hart Energy Publishing, LP Feb 20, 2006</DIV>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<DIV>Chancellor, SD 57015</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>16 plants SD</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;</DIV>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-96.964241,43.371323,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chippewa Valley Ethanol Co</name>
+    <description><![CDATA[<br>
+<div><a href="http://www.cnn.com/2003/US/Midwest/10/22/ethanol.plant.ap/" target="_blank">10/22/03-</a>(Storage Tank) <strong><font size="3"><a href="http://www.cnn.com/2003/US/Midwest/10/22/ethanol.plant.ap/" target="_blank">explosion and fire rocked</a> a plant where corn is turned into ethanol Wednesday, killing one worker and injuring another man, officials said.</font></strong></div>
+<div><strong><font size="3"></font></strong>&nbsp;</div>
+<div><strong><font size="3">1 fatality</font></strong></div>
+<div><strong><font size="3">1 injury</font></strong></div>
+<div>&nbsp;</div>
+<div>Benson, MN</div>
+<div>&nbsp;</div>
+<div><strong>SIC: 2869/</strong>Industrial Organic Chemicals, Not Elsewhere Classified</div>
+<div><strong>NAICS: 325199</strong>/All Other Basic Organic Chemical Manufacturing</div>
+<div>&nbsp;</div>
+<div><a href="http://www.osha.gov/pls/imis/establishment.inspection_detail?id=311081012&amp;id=306762287&amp;id=307133876&amp;id=126592195" target="_blank">OSHA History</a></div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-95.638992,45.325054,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gopher State Ethanol/Out of Business </name>
+    <description><![CDATA[<IMG src="http://news.minnesota.publicradio.org/features/200210/02_losurem_ethanol2/images/plant.jpg">
+<DIV>7/26/03-Fire, About 60 firefighters worked the blaze by ripping parts of the roof off, Verros said. He estimated damage between $10,000 and $15,000.<SPAN><FONT face="Verdana"><A href="http://nl.newsbank.com/nl-search/we/Archives?p_product=PD&amp;s_site=twincities&amp;p_multi=SP&amp;p_theme=realcities&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0FC8DEAF4C7BD0E3&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM" target="_blank">This is the fourth major fire here," said City Council Member</A> Chris Coleman. "I'm tired of it, and I don't have to live right next to it.</FONT></SPAN></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>No injuries</DIV>
+<DIV>$10-15 K est. damages </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;Saint Paul, MN</DIV>
+<DIV><B>From: </B><A href="http://www.highbeam.com/doc/1G1-105931666.html?refid=blog_5581781" target="_blank">Fire damages ethanol plant in St. Paul.(NEWS)</A> by Collins, Terry<BR><B>Source: </B>Star Tribune (Minneapolis, MN), 7/26/2003.<BR><B>Via: </B><A href="http://www.highbeam.com/" target="_blank"><IMG alt="HighBeam Research Logo" src="http://www.highbeam.com/img/h-icon-small.gif" align="baseline" border="0"></A> HighBeam™ Research<BR>COPYRIGHT 2008 Star Tribune Co.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><A href="http://www.ethanolproducer.com/article.jsp?article_id=4042" target="_blank">In 2005 the site was sold</A> by a bankruptcy court for the development of a condominium project</DIV>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>
+<P></P></P>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-93.372803,45.036655,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tri-County Ethanol /North Country Ethanol </name>
+    <description><![CDATA[<img style="width:239px" src="http://www.icminc.com/images/portfolio/large/North_Counrty_Ethanol.jpg"> 
+<div>12/31/02-(Distillation)Fire and <b>explosion</b> in the distillation area of the plant. "The <b>explosion</b> put the plant over the edge," another source from the plant said, and the plant was forced to file bankruptcy in May 2003. prevented service from ever starting.Financial problems forced the company into Chapter 11 reorganization on May 23, 2003. </div>
+<div>&nbsp;</div>
+<div>On July 29, 2004, the case was converted to Chapter 7 liquidation. <strong>North Country purchased the</strong> assets of the company Dec. 22, 2004, in a court-supervised auction.</div>
+<div>&nbsp;</div>
+<div>&nbsp;Rosholt, S Dakota</div>
+<p><b>From: </b><a href="http://www.highbeam.com/doc/1G1-131413265.html?refid=blog_5581781" target="_blank">Rosholt ethanol plant ramping up.</a><br><b>Source: </b>Agweek, 4/12/2005.<br><b>Via: </b><a href="http://www.highbeam.com/" target="_blank"><img alt="HighBeam Research Logo" src="http://www.highbeam.com/img/h-icon-small.gif" align="bottom" border="0"></a> HighBeam™ Research<br></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-96.729980,45.864071,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gopher State Ethanol </name>
+    <description><![CDATA[<div>6/5/2002-(Dryer) <strong>Fire</strong> broke out&nbsp; in the same grain-drying unit that was damaged by a blaze in March, The plant's <b>fire</b>-suppression system, like last time, doused the flames</div>
+<div>&nbsp;</div>
+<div>Saint Paul, MN</div>
+<div>&nbsp;<br><b>From: </b><a href="http://www.highbeam.com/doc/1G1-86830003.html?refid=blog_5581781" target="_blank">Fire again strikes West 7th ethanol plant.(NEWS)</a> by Estrada, Heron Marquez<br><b>Source: </b>Star Tribune (Minneapolis, MN), 6/5/2002.<br><b>Via: </b><a href="http://www.highbeam.com/" target="_blank"><img alt="HighBeam Research Logo" src="http://www.highbeam.com/img/h-icon-small.gif" align="baseline" border="0"></a> HighBeam™ Research<br>COPYRIGHT 2008 Star Tribune Co.</div>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>
+<p></p></p><p></p></p>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-92.967682,45.047813,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gopher State Ethanol</name>
+    <description><![CDATA[<DIV>3/23/02-(Dryer) <SPAN><FONT face="Verdana">fire in a grain dryer&nbsp; minimal damage&nbsp; The plant will remain shut down through the weekend for inspections, and plant officials hope to reopen sometime Monday pending approval from the city and Fire Department. "</FONT></SPAN></DIV>
+<DIV><SPAN><FONT face="Verdana"></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN><FONT face="Verdana">No injuries</FONT></SPAN></DIV>
+<DIV><SPAN><FONT face="Verdana"></FONT></SPAN>&nbsp;</DIV>
+<DIV><SPAN>Inspectors ordered a grain-<B>dryer</B> duct cleaned and rewiring on the <B>fire</B>-suppression system.The faci;ity had cut emissions by more than 95 percent after installing a $1.2 million<STRONG> thermal oxidizer </STRONG>last year.</SPAN></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Saint Paul, MN</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><STRONG><FONT color="#ff0000" size="4"><FONT color="#0000cc">12/15/04-</FONT><A href="http://petroleum.berkeley.edu/patzek/Idiotic/Materials/startribune12_15_04.htm" target="_blank">Gopher State Ethanol</A> liquidating assets</FONT></STRONG></DIV>
+<DIV>
+<H1><SPAN><FONT size="2"><A href="http://www.health.state.mn.us/divs/eh/hazardous/sites/ramsey/gopher/" target="_blank">Hazardous Waste Sites in Minnesota</A></FONT></SPAN></H1></DIV>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-93.093323,44.943840,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Corn Plus</name>
+    <description><![CDATA[<IMG style="width:239px" src="http://www.cornplusethanol.com/Images/Plant_Photo.jpg"> 
+<DIV><A href="http://nl.newsbank.com/nl-search/we/Archives?p_product=GF&amp;s_site=grandforks&amp;p_multi=GF&amp;p_theme=realcities&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0F022304B6EC63F6&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM" target="_blank">11/30/01-</A><SPAN><FONT face="Verdana"><A href="http://nl.newsbank.com/nl-search/we/Archives?p_product=GF&amp;s_site=grandforks&amp;p_multi=GF&amp;p_theme=realcities&amp;p_action=search&amp;p_maxdocs=200&amp;p_topdoc=1&amp;p_text_direct-0=0F022304B6EC63F6&amp;p_field_direct-0=document_id&amp;p_perpage=10&amp;p_sort=YMD_date:D&amp;s_trackval=GooglePM" target="_blank">dryer fire . There</A> are two corn dryers at the plant - a recently installed dryer and one that has been there since the plant opened. The older dryer was the one that caught fire. About a dozen employees were in the plant when the fire broke out.</FONT></SPAN></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><A href="http://www.cornplusethanol.com/" target="_blank">Winnebago, MN</A></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>21 plants MN</DIV>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-94.165771,43.766380,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Heartland Grain Fuels </name>
+    <description><![CDATA[<img src="http://www.feedandgrain.com/images/article/1171305731191_f1_5.jpg"> 
+<div dir="ltr">8/23/2000-<font color="#0000cc">(Spill) </font><a href="http://www.accessmylibrary.com/coms2/summary_0286-7208916_ITM" target="_blank">fire started after a valve</a> allowed 200 proof raw alcohol to drain onto the floor and run out an open door. A spark from welding equipment used by a crew working on the second floor of the building ignited the alcohol. <br><br>2 injuries<br><br>Aberdeen, S Dakota</div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-98.378448,45.601547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Energy</name>
+    <description><![CDATA[<a href="http://homepage.mac.com/oscura/ctd/docs/mar2102fire.pdf" target="_blank">3/21/2000-fire was contained to </a>the&nbsp; “bag house, The fire began Tuesday morning around 2am. Fire investigators say plant officials thought they had the fire out earlier, using their own safety system. Firefighters blame spontaneous combustion for the fire<br>rekindling. The fire caused more than $20,000 in damages to a dust-handling unit<br>that was just installed two weeks ago.<br><br>South Bend, Indiana<br><br><br>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-86.250626,41.694160,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Minnesota Energy</name>
+    <description><![CDATA[<img style="width:239px" src="http://www.alvoudrie.com/2006/brochure_files/image014.jpg"> 
+<div>11/6/1998- (Dryer) a <b>fire</b> broke out in the dryer drum during the <b>..</b></div>
+<div>&nbsp;</div>
+<div>Buffalo Lake, MN</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-94.617859,44.733292,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

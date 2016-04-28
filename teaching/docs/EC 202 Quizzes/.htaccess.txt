@@ -1,0 +1,4 @@
+AuthName "use user name NCState and the password specified by Robert"
+AuthType Basic
+AuthUserFile /afs/unity.ncsu.edu/users/r/rdinter/www/sports/.htpasswd
+require valid-user
