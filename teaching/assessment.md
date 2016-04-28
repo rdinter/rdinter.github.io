@@ -16,7 +16,88 @@ I keep a list of the key topics from 1) and 2) to review before I prepare anothe
 
 Below is a list of my class evaluations so far. Clicking on the links under Course will lead you to the full student comments for that course. Clicking on the Instructor Effectiveness links will lead you to a more detailed review of questions the students responded to.
 
-**table**
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td><big><big><b>Course</b></big></big></td>
+      <td><big><b># of Students</b></big></td>
+      <td><big><b>Response Rate</b></big></td>
+      <td><big><b>Instructor Effectiveness (out of 5)</b></big></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20F09_ec205.pdf">EC 205 (Lab) Fundamentals of Economics Fall 09</a></td>
+      <td>104<br />
+(3 sections)</td>
+      <td>45%</td>
+      <td><a href="docs/Reviews/Qs%20F09_ec205.pdf">4.59</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20S10_ec205.pdf">EC 205 (Lab) Fundamentals of Economics Spring 10</a></td>
+      <td>99<br />
+(3 sections)</td>
+      <td>95%</td>
+      <td><a href="docs/Reviews/Qs%20S10_ec205.pdf">4.52</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20F10_ec202.pdf">EC 202 Principles of Macroeconomics Fall 10</a></td>
+      <td>80<br />
+(2 sections)</td>
+      <td>95%</td>
+      <td><a href="docs/Reviews/Qs%20F10_ec202.pdf">4.35</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20S11_ec202.pdf">EC 202 Principles of Macroeconomics Spring 11</a></td>
+      <td>76<br />
+(2 sections)</td>
+      <td>93%</td>
+      <td><a href="docs/Reviews/Qs%20S11_ec202.pdf">4.03</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20F11_ec202.pdf">EC 202 Principles of Macroeconomics Fall 11</a></td>
+      <td>74<br />
+(2 sections)</td>
+      <td>77%</td>
+      <td><a href="docs/Reviews/Qs%20F11_ec202.pdf">4.30</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Comments%20S12_ec202.pdf">EC 202 Principles of Macroeconomics Spring 12</a></td>
+      <td>80<br />
+(2 sections)</td>
+      <td>88%</td>
+      <td><a href="docs/Reviews/Qs%20S12_ec202.pdf">4.36</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Student%20Comments%20F12_006.pdf">EC 202 Principles of Macroeconomics Fall 12</a></td>
+      <td>70<br />
+(1 section)</td>
+      <td>37%</td>
+      <td><a href="docs/Reviews/Student%20Qs%20F12_006.pdf">3.72</a></td>
+    </tr>
+    <tr>
+      <td><a href="docs/Reviews/Eval%20EC%20495.pdf">EC 495 Sports Economics Fall 12</a></td>
+      <td>18<br />
+(1 section)</td>
+      <td>33%</td>
+      <td>3.5</td>
+    </tr>
+<tr>
+      <td><a href="docs/Reviews/Student_Comments_S14_001.pdf">EC 351 Intro to Econometrics Spring 13</a></td>
+      <td>31<br />
+(1 section)</td>
+      <td>38.7%</td>
+      <td><a href="docs/Reviews/Student_Qs_S14_001.pdf">2.8</a></td>
+    </tr>
+<tr>
+      <td><a href="docs/Reviews/Student_Comments_SI14_001.pdf">EC Intro to Econometrics Summer I 14</a></td>
+      <td>10<br />
+(1 section)</td>
+      <td>20%</td>
+      <td><a href="docs/Reviews/Student_Qs_SI14_001.pdf">4.5</a></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### Highlights
 
@@ -36,7 +117,7 @@ Here are a few of the comments from students that I feel highlight my strengths 
 I have also been reviewed by NC State faculty members in the department of Economics for my teaching performance. This give me the perspective of an experienced teacher. I have found faculty observations to be another great way to get input on how I can improve my teaching performance. Any problems that I may encounter in the classroom have been seen before by a faculty member and getting their input has been extremely beneficial to my development as a teacher so far.
 
 
-* EC 205 Lab Observation on [September 30, 2009](docs/).
-   * [Reflection of Observation](docs/)
-* EC 205 Lab Observation on [March 12, 2010](docs/) (second file [here](docs/)).
-   * [Reflection of Observation](docs/)
+* EC 205 Lab Observation on [September 30, 2009](docs/Reviews/Tamah%20Observation%209-30.pdf).
+   * [Reflection of Observation](docs/Reviews/Observation%20Reflection%209-30.pdf)
+* EC 205 Lab Observation on [March 12, 2010](docs/Reviews/Tamah%20Observation%203-12%20%281%29.JPG) (second file [here](docs/Reviews/Tamah%20Observation%203-12%20%282%29.JPG)).
+   * [Reflection of Observation](docs/Reviews/Observation%20Reflection%203-12.pdf)

@@ -31,6 +31,7 @@ navbar-links:
     - Sports Economics: "courses/sports"
   Research: "research"
   Teaching: #"teaching"
+    - Purpose: "teaching"
     - Philosophy: "teaching/philosophy"
     - Methods: "teaching/methods"
     - Courses: "teaching/courses"
