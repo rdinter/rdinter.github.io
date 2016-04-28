@@ -20,7 +20,7 @@ Below are links to some materials used in each course as well as courses I am in
 * Description - Aggregate economic analysis emphasizing current public policy issues. Determinants of level and rate of growth of total output. Causes of unemployment and business cycles, inflation, and exchange rate fluctuations. Effects of monetary policy (money supply) and fiscal policy (government spending, taxes, deficits) on these problems. Trade surpluses/deficits and impact of international events and policies on national economies.
 * Required for all students in the College of Management, also this can satisfy a Humanities requirement for all students.
 * Taught from Fall 2010 to Spring 2013 (5 total independent sections).
-* [Sample Syllabus](docs/Syllabus%20003.pdf)
+* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/Syllabus%20003.pdf)
 
 ## [EC 205 - Fundamentals of Economics](http://www4.ncsu.edu/~rdinter/teaching_ec205_.html)
 
@@ -35,7 +35,7 @@ Below are links to some materials used in each course as well as courses I am in
 * Students must take an introductory statistics course before enrolling.
 * Required for completeion of a degree in [Economics at NC State](https://oucc.dasa.ncsu.edu/mgmt-20econbs-nosubplan-2097/).
 * Taught in Spring and Summer I 2014 (2 total independent sections).
-* [Sample Syllabus](docs/EC351_SI14_Syllabus.pdf)
+* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/EC351_SI14_Syllabus.pdf)
 
 ## [EC 495 - Sports Economics](http://www4.ncsu.edu/~rdinter/sports/index.html)
 
@@ -49,4 +49,4 @@ Below are links to some materials used in each course as well as courses I am in
 * Description - Use R to analyze spatial data, display maps, and better understand Geographic Information Systems. A low level of proficiency with R will be assumed and special attention will be devoted to using shapefiles, using [ggplot2](http://ggplot2.org/) to plot data, and using the [spdep](http://cran.r-project.org/web/packages/spdep/spdep.pdf) package in R.
 * Designed to help graduate students with any research that uses spatial methods.
 * Partially developed.
-* [Sample Syllabus/Outline](docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)
+* [Sample Syllabus/Outline](http://www4.ncsu.edu/~rdinter/docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)
