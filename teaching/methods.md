@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Courses
-subtitle: Econometrics
+title: Teaching
+subtitle: Methods
 ---
 
 To describe my teaching methods, the actual material and level are needed to describe how I teach. I have taught introductory level and upper level courses and have found that different strategies are needed to be an effective teacher. Because of the material, as well as the make-up of the students, I have had to adjust my teaching style for each course. Economics is a discipline with differing layers of understanding. Dependent upon the course, one may need to dig deeper in the understanding of the material which requires me to make adjustments to my style of teaching.

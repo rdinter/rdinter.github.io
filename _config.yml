@@ -24,7 +24,7 @@ description: A professional site for Robert Dinterman, economics PhD candidate a
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Courses:
+  Courses   :
     - Econometrics: "courses/metrics"
     - Macroeconomics: "courses/macro"
     - Spatial Statistics: "courses/spatial"
