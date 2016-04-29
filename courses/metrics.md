@@ -4,4 +4,4 @@ title: Courses
 subtitle: Econometrics
 ---
 
-Econometrics.
+Temporary placeholder. Site needs to be migrated from moodle site at NC State.
