@@ -24,11 +24,11 @@ description: A professional site for Robert Dinterman, economics PhD candidate a
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Course Sites:
+  Course Websites:
     - Econometrics: "courses/metrics"
-    - Macroecon: "courses/macro"
+    - Macroeconomics: "courses/macro"
     - Spatial Statistics: "courses/spatial"
-    - Sports Econ: "courses/sports"
+    - Sports Economics: "courses/sports"
   Research: "research"
   Teaching: #"teaching"
     - Purpose: "teaching"
