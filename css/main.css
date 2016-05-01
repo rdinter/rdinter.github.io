@@ -212,6 +212,9 @@ img {
   }
 }
 @media only screen and (min-width: 768px) {
+  .navbar-custom .nav .navlinks-container {
+    text-align: center;
+  }  
   .navbar-custom .nav .navlinks-container:hover {
     background: #eee;
   }
@@ -220,7 +223,6 @@ img {
   }
   .navbar-custom .nav .navlinks-children {
     position: absolute;
-	text-align: center;
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
