@@ -26,7 +26,7 @@ Below are links to some materials used in each course as well as courses I am in
 * Description - Fundamental ideas in economics: scarcity, substitution, opportunity cost, marginal analysis, gross domestic product, real and nominal magnitudes. Supply and demand analysis. Microeconomic analysis of pricing in competitive and noncompetitive markets. Macroeconomic analysis of production, employment, the price level, and inflation. Monetary and fiscal policy and the stabilization of the economy. Comparative advantage and international trade.
 * This course can satisfy a Humanities requirement for most students.
 * Taught from Fall 2009 to Spring 2010 (6 total lab sections).
-* [Sample Syllabus](/docs/211%20Syllabus.pdf)
+* [Sample Syllabus](/teaching/docs/211%20Syllabus.pdf)
 
 ## EC 351 - Data Analysis for Economists (Introduction to Econometrics)
 
@@ -34,18 +34,18 @@ Below are links to some materials used in each course as well as courses I am in
 * Students must take an introductory statistics course before enrolling.
 * Required for completeion of a degree in [Economics at NC State](https://oucc.dasa.ncsu.edu/mgmt-20econbs-nosubplan-2097/).
 * Taught in Spring and Summer I 2014 (2 total independent sections).
-* [Sample Syllabus](docs/EC351_SI14_Syllabus.pdf)
+* [Sample Syllabus](/teaching/docs/EC351_SI14_Syllabus.pdf)
 
 ## [EC 495 - Sports Economics](http://www4.ncsu.edu/~rdinter/sports/index.html)
 
 * Description - Economic analysis of athletic performance, sports teams, and leagues. Topics include athlete compensation, labor relations, antitrust issues, tournament theory, public funding of sports venues, and application of economic principles to sports settings.
 * Fulfills an Economics elective for students majoring in Agricultural Economics and Economics.
 * Taught Fall 2012 (1 independent section). This was a newly developed course at NC State and may be offered again in the future.
-* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/EC%20495%20-%20Sports%20Economics%20Syllabus.pdf)
+* [Sample Syllabus](/teaching/docs/EC%20495%20-%20Sports%20Economics%20Syllabus.pdf)
 
 ## [Short Course - GIS with R](http://www4.ncsu.edu/~rdinter/Spatial/index.html)
 
 * Description - Use R to analyze spatial data, display maps, and better understand Geographic Information Systems. A low level of proficiency with R will be assumed and special attention will be devoted to using shapefiles, using [ggplot2](http://ggplot2.org/) to plot data, and using the [spdep](http://cran.r-project.org/web/packages/spdep/spdep.pdf) package in R.
 * Designed to help graduate students with any research that uses spatial methods.
 * Partially developed.
-* [Sample Syllabus/Outline](http://www4.ncsu.edu/~rdinter/docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)
+* [Sample Syllabus/Outline](/teaching/docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)

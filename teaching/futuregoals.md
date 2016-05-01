@@ -46,7 +46,9 @@ I will need to change my syllabus and outline for the course, but I need to find
 
 ### Reevaluate Powerpoint
 I have avoided Powerpoint so far as a way to ensure I am not a lazy teacher and students can observe the effort I put forth. I need to rethink this and possibly find a way that I can augment Powerpoint with using the board for necessary exercises in class.
+
 ### Transparency 
 Improve communication with students about what my expectations are in class and in assessment. This will involve taking a step back and recognizing all of the concepts that I focus on in class, making these known to students, and testing on this. I do not want to teach to the test, so this method will help the test reflect what I teach.
+
 ### Class Participation
 Continue to work on getting classes to participate in discussing the material and being clear about what they do and do not understand.
