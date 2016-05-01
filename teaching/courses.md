@@ -13,21 +13,20 @@ Below are links to some materials used in each course as well as courses I am in
 * Description - Scarcity, production possibilities, and opportunity cost. Supply and demand analysis, free markets, the price system, and government policy. Microeconomic analysis of business decisions in competitive and noncompetitive markets. Labor markets, capital, and natural resource markets, and externalities. Market breakdown, income redistribution, and role of government. Free trade, tariffs, and gains from international trade.
 * Required for all students in the College of Management, also this can satisfy a Humanities requirement for all students.
 * Not yet taught.
-* Sample Syllabus
 
 ## [EC 202 - Principles of Macroeconomics](http://www4.ncsu.edu/~rdinter/teaching_ec202.html)
 
 * Description - Aggregate economic analysis emphasizing current public policy issues. Determinants of level and rate of growth of total output. Causes of unemployment and business cycles, inflation, and exchange rate fluctuations. Effects of monetary policy (money supply) and fiscal policy (government spending, taxes, deficits) on these problems. Trade surpluses/deficits and impact of international events and policies on national economies.
 * Required for all students in the College of Management, also this can satisfy a Humanities requirement for all students.
 * Taught from Fall 2010 to Spring 2013 (5 total independent sections).
-* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/Syllabus%20003.pdf)
+* [Sample Syllabus](/teaching/docs/Syllabus%20003.pdf)
 
 ## [EC 205 - Fundamentals of Economics](http://www4.ncsu.edu/~rdinter/teaching_ec205_.html)
 
 * Description - Fundamental ideas in economics: scarcity, substitution, opportunity cost, marginal analysis, gross domestic product, real and nominal magnitudes. Supply and demand analysis. Microeconomic analysis of pricing in competitive and noncompetitive markets. Macroeconomic analysis of production, employment, the price level, and inflation. Monetary and fiscal policy and the stabilization of the economy. Comparative advantage and international trade.
 * This course can satisfy a Humanities requirement for most students.
 * Taught from Fall 2009 to Spring 2010 (6 total lab sections).
-* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/211%20Syllabus.pdf)
+* [Sample Syllabus](/docs/211%20Syllabus.pdf)
 
 ## EC 351 - Data Analysis for Economists (Introduction to Econometrics)
 
@@ -35,7 +34,7 @@ Below are links to some materials used in each course as well as courses I am in
 * Students must take an introductory statistics course before enrolling.
 * Required for completeion of a degree in [Economics at NC State](https://oucc.dasa.ncsu.edu/mgmt-20econbs-nosubplan-2097/).
 * Taught in Spring and Summer I 2014 (2 total independent sections).
-* [Sample Syllabus](http://www4.ncsu.edu/~rdinter/docs/EC351_SI14_Syllabus.pdf)
+* [Sample Syllabus](docs/EC351_SI14_Syllabus.pdf)
 
 ## [EC 495 - Sports Economics](http://www4.ncsu.edu/~rdinter/sports/index.html)
 
