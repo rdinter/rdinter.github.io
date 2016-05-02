@@ -116,8 +116,10 @@ Here are a few of the comments from students that I feel highlight my strengths 
 
 I have also been reviewed by NC State faculty members in the department of Economics for my teaching performance. This give me the perspective of an experienced teacher. I have found faculty observations to be another great way to get input on how I can improve my teaching performance. Any problems that I may encounter in the classroom have been seen before by a faculty member and getting their input has been extremely beneficial to my development as a teacher so far.
 
-
 * EC 205 Lab Observation on [September 30, 2009](/teaching/docs/Reviews/Tamah%20Observation%209-30.pdf).
    * [Reflection of Observation](/teaching/docs/Reviews/Observation%20Reflection%209-30.pdf)
 * EC 205 Lab Observation on [March 12, 2010](/teaching/docs/Reviews/Tamah%20Observation%203-12%20%281%29.JPG) (second file [here](/teaching/docs/Reviews/Tamah%20Observation%203-12%20%282%29.JPG)).
    * [Reflection of Observation](/teaching/docs/Reviews/Observation%20Reflection%203-12.pdf)
+
+
+* Continue to see the [Future Goals](futuregoals) for myself as an instructor.

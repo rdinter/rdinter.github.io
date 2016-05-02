@@ -49,3 +49,6 @@ Below are links to some materials used in each course as well as courses I am in
 * Designed to help graduate students with any research that uses spatial methods.
 * Partially developed.
 * [Sample Syllabus/Outline](/teaching/docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)
+
+
+* Continue for the [Assessment](assessment) section where you can see my effectiveness as an instructor.

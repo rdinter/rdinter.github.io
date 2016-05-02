@@ -37,8 +37,4 @@ The NC State Graduate School has been instrumental in helping me develop my meth
 
 I have found myself questioning my current methods after each workshop I attended, which helps me get rid of bad habits and continually refine my skills. Each of the links to the workshops I have attended are a description of the workshop as well as a short reflection on how the workshop has helped me as a teacher.
 
-## Artifacts
-
-* [EC 495 Sports Economics Syllabus](/teaching/docs/EC%20495%20-%20Sports%20Economics%20Syllabus.pdf)
-
-This syllabus demonstrates what I have learned through various workshops. This syllabus is from my Sports Economics course that I newly developed for NC State and I have actually updated it from the original syllabus that I used. I was able to evaluate my class performance from teaching the course the first time and assess that I needed to change my grading structure for the course. I had initially designated one midterm exam and a research paper, but throughout the process of teaching the course I found that this was not sufficient. The students needed more evaluation in the form of testing and less emphasis on the research paper. I then decided to add another exam and break the research paper down into smaller assignments that would essentially create a research paper when completed. I plan to adopt this style of a syllabus for future upper level courses that I teach.
+* Continue to see the [Courses](courses) that I have developed or am in the process of developing.
