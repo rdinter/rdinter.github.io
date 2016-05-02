@@ -32,7 +32,7 @@ Below are links to some materials used in each course as well as courses I am in
 
 * Description - Tools for describing and analyzing data as used in economics. Probability, random variables, sampling, point and interval estimation. Hypothesis testing and regression analysis with emphasis on economic applications.
 * Students must take an introductory statistics course before enrolling.
-* Required for completeion of a degree in [Economics at NC State](https://oucc.dasa.ncsu.edu/mgmt-20econbs-nosubplan-2097/).
+* Required for completion of a degree in [Economics at NC State](https://oucc.dasa.ncsu.edu/mgmt-20econbs-nosubplan-2097/).
 * Taught in Spring and Summer I 2014 (2 total independent sections).
 * [Sample Syllabus](/teaching/docs/EC351_SI14_Syllabus.pdf)
 
@@ -51,4 +51,4 @@ Below are links to some materials used in each course as well as courses I am in
 * [Sample Syllabus/Outline](/teaching/docs/R%20Short%20Course%20for%20GIS%20and%20Spatial%20Econometrics.pdf)
 
 
-* Continue for the [Assessment](assessment) section where you can see my effectiveness as an instructor.
+#### Continue for the [Assessment](/teaching/assessment) section where you can see my effectiveness as an instructor.

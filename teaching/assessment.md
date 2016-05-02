@@ -103,7 +103,7 @@ Below is a list of my class evaluations so far. Clicking on the links under Cour
 
 Here are a few of the comments from students that I feel highlight my strengths as a teacher. I have added bold for emphasis:
 
->"Robert has to be **one of the most patient teachers I know** and never displays anger towards the class even when they occasionally talk over him. He does a pretty good job of making examples relavent to college students and not just straight out of the text book. As for the weaknesses, I can't think of any. Also, one of the coolest things about Robert is that he asks the class when a quiz should be due and what time is best for us. **This really does show that he does try to help the students out**."
+>"Robert has to be **one of the most patient teachers I know** and never displays anger towards the class even when they occasionally talk over him. He does a pretty good job of making examples relevant to college students and not just straight out of the text book. As for the weaknesses, I can't think of any. Also, one of the coolest things about Robert is that he asks the class when a quiz should be due and what time is best for us. **This really does show that he does try to help the students out**."
 
 >"Robert Dinterman was an amazing course instructor. He had a great sense of humor and always wanted us to understand the material in the most clear and concise manner. **He was always willing to help students after class and any other time that a student had a question**. His lab outlines were fantastic and were a great study aid when in preparation for the Exams. He always **was willing to go over questions for as long as students needed until they fully grasped the concept**. He was also extremely prompt in returning e-mails. I got sick a couple of times throughout the semester and he always wrote me back immediately and sent the lab outline so I never felt behind at all. Robert has no weaknesses in his teaching methods."
 
@@ -122,4 +122,4 @@ I have also been reviewed by NC State faculty members in the department of Econo
    * [Reflection of Observation](/teaching/docs/Reviews/Observation%20Reflection%203-12.pdf)
 
 
-* Continue to see the [Future Goals](futuregoals) for myself as an instructor.
+#### Continue to see the [Future Goals](/teaching/futuregoals) for myself as an instructor.

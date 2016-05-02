@@ -6,7 +6,7 @@ subtitle: Methods
 
 To describe my teaching methods, the actual material and level are needed to describe how I teach. I have taught introductory level and upper level courses and have found that different strategies are needed to be an effective teacher. Because of the material, as well as the make-up of the students, I have had to adjust my teaching style for each course. Economics is a discipline with differing layers of understanding. Dependent upon the course, one may need to dig deeper in the understanding of the material which requires me to make adjustments to my style of teaching.
 
-This section describes how I teach in class and why I chose the methods I use. For in-class examples, the Courses section has archived websites of courses I have taught which includes some combination of lecture notes, quizzes, exams, writing assignments, and syllabi.
+This section describes how I teach in class and why I chose the methods I use. For in-class examples, the Courses section has archived websites of courses I have taught which includes some combination of lecture notes, quizzes, exams, writing assignments, and syllabus.
 
 ## Introductory Level
 
@@ -30,11 +30,11 @@ The NC State Graduate School has been instrumental in helping me develop my meth
 
 * [Academic Misconduct](/teaching/docs/Academic%20Misconduct.pdf) - define academic integrity and academic dishonesty, identify strategies for promoting academic honesty in the classroom, identify resources for detecting academic dishonesty, and be familiar with procedures for reporting academic dishonesty on campus.
 * [Active Learning](/teaching/docs/Active%20Learning.pdf) - define active learning, compare and contrast active v.s. passive learning, practice and evaluate a variety of active learning techniques, identify ways to establish a classroom environment that supports active learning, and discuss the benefits and challenges of active learning.
-* [Evaluation and Grading](/teaching/docs/Evaluation%20and%20Grading%20Reflection.pdf) - define evaluation, discuss the different types of grading rubrics, compare the pros and cons of rubric, practice creating a rubric for an assignment, pracice giving constructive feedback, and discuss best practices in grading and evaluation.
+* [Evaluation and Grading](/teaching/docs/Evaluation%20and%20Grading%20Reflection.pdf) - define evaluation, discuss the different types of grading rubrics, compare the pros and cons of rubric, practice creating a rubric for an assignment, practice giving constructive feedback, and discuss best practices in grading and evaluation.
 * [Introduction to Teaching](/teaching/docs/Intro%20to%20Teaching%20Reflection.pdf) - designed to introduce participants to the fundamentals of effective teaching and learning in the university classroom through exploration, application, and reflection. This workshop is designed to provide basic information about a variety of teaching topics and to offer "best practices" for enhancing teaching and learning in the university classroom.
-* [Managing Disruptive Classroom Behavior](/teaching/docs/Managing%20Disruptive%20Classroom%20Behavior.pdf) - define disruptive behavior, learn practical skills, theory and examples of how thte tools can be applied in their classrooms, effectively work with disruptive students in the classroom setting, explain the basic concepts of motivational enhacement therapy as applied to the classroom, and discuss the do's and don'ts when working with students who are frustrated and unmotivated.
+* [Managing Disruptive Classroom Behavior](/teaching/docs/Managing%20Disruptive%20Classroom%20Behavior.pdf) - define disruptive behavior, learn practical skills, theory and examples of how the tools can be applied in their classrooms, effectively work with disruptive students in the classroom setting, explain the basic concepts of motivational enhancement therapy as applied to the classroom, and discuss the do's and don'ts when working with students who are frustrated and unmotivated.
 * [Teaching in the Lab](/teaching/docs/Teaching%20in%20the%20Lab.pdf) -how to budget your time wisely -- have a lesson plan, establish ground rules, create a positive classroom climate, and foster group work and discussion.
 
 I have found myself questioning my current methods after each workshop I attended, which helps me get rid of bad habits and continually refine my skills. Each of the links to the workshops I have attended are a description of the workshop as well as a short reflection on how the workshop has helped me as a teacher.
 
-* Continue to see the [Courses](courses) that I have developed or am in the process of developing.
+#### Continue to see the [Courses](/teaching/courses) that I have developed or am in the process of developing.
