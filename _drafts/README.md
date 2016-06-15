@@ -1,6 +1,13 @@
 # How-To
 
-Taken from [Nicole White's website](https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) on how-to blog with r code, rmarkdown, and jekyll. Reproduced from the markdown file below. About the only thing that _I_ changed was `images` to `img` and the `r2jekyll.R` to a lowercase `r2jekyll.r`. Other than that, my routine is to now: make an rmarkdown file in `_drafts` folder -> then open up shell to run the `r2jekyll.r` on the new rmarkdown file.
+Taken from [Nicole White's website](https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) on how-to blog with r code, rmarkdown, and jekyll. Reproduced from the markdown file below. About the only thing that _I_ changed was `images` to `img` and the `r2jekyll.R` to a lowercase `r2jekyll.r`. Other than that, my routine is to now:
+
+1. Make an rmarkdown file in `_drafts` folder.
+2. Open up shell in RStudio (Tools -> Shell...).
+3. `cd _drafts` - enter.
+4. `./r2jekyll.R exploring-the-cars-dataset.Rmd` - enter.
+    - where XYZ is the new rmarkdown file
+5. Commit and push!
 
 # Blogging About R Code with R Markdown, Knitr, and Jekyll.
 
