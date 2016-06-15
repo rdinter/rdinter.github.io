@@ -1,8 +1,3 @@
----
-layout: post
-title: NBA Forbes Valuations
----
-
 Forbes released their [2015--16 NBA Franchise Valuations](http://www.forbes.com/nba-valuations/) in January of this year, which provides the best public data on the financial performance of NBA teams. In the [early 1990s](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320022877/3389744314/1), the now defunct [Financial World](https://en.wikipedia.org/wiki/Financial_World) started compiling data on the NBA until 1998 when the magazine went out of business. In 1999, Forbes picked up where Financial World left off and here we are. All data are available from [Rod Fort's Sports Data](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320023265).
 
 Current Data Release
@@ -33,7 +28,7 @@ Oh, and the national TV deal which is split between other NBA teams has also had
 Historical Context
 ==================
 
-![](img/nba-values-valuations-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-valuations-1.png)
 
 *(The red line represents the Atlanta Hawks while the blue line represents the average franchise value with a 95% error bar in grey. Each dot represents an NBA team. For the 2015 year, there are 7 teams with a franchise valuation of over $1.5 billion and are not shown in the graph: Brooklyn, Golden State, LA Clippers, Boston, Chicago, LA Lakers, and New York.)*
 
@@ -50,26 +45,26 @@ A Closer Look at Revenues
 
 A course approximation of a businesses valuation can be apprised through revenues, costs, and profits. And Financial World/Forbes provides data on this for the whole set of NBA teams since 1990. We can look at yearly revenues across the NBA to see Atlanta's standing with its ~~business partners~~ competitors.
 
-![](img/nba-values-revenues-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-revenues-1.png)
 
 The Hawks revenue flow has consistently lagged with respect to the rest of the NBA. At no point in time has Atlanta been above the mean in the NBA. Part of this is because of a slightly skewed distribution of revenues across teams, as can be seen that the top revenues each year is almost always comprised of the larger market teams (New York, Los Angeles, Chicago). Not surprisingly, these teams also consistently outpace the rest of the NBA in terms of cost of attendance.
 
-![](img/nba-values-fci-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-fci-1.png)
 
 *(Fan Cost Index (FCI) is a metric compiled by [Team Marketing Report](https://www.teammarketing.com/). The FCI comprises the price of four average-price tickets, two cheapest beers, four cheapest soft drinks, four hot dogs, parking for one car, two game programs and two least-expensive, adult-size hats.)*
 
-![](img/nba-values-ticket-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-ticket-1.png)
 
 It is a bit perplexing that the Hawks have increased their average ticket prices two times over these years to be above league average and yet their revenues were steadily increasing with no clear jumps in revenue flows. The obvious linkage here is the relationship between price and attendance for the team across the years. As seen below, Atlanta has consistently lagged behind all other franchises in attendance although for seasons before 1997 the Hawks were clearly constrained by the approximately 16,500 capacity of [The Omni](https://en.wikipedia.org/wiki/Omni_Coliseum).
 
-![](img/nba-values-attendance-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-attendance-1.png)
 
 Changes in attendance does not necessarily lead to higher or lower revenues as this is only half of the equation. Price has a great deal of influence over the revenues generated for a franchise. And much like one would never evaluate the success or failure over a company by simply looking at how many people purchased a product, one should not necessarily evaluate the success or failure of a franchise over how many attended a game. But this is to be expected if one ignores the price.
 
 Player Costs[3]
 ---------------
 
-![](img/nba-values-salaries-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-salaries-1.png)
 
 Player Costs, as measured by Financial World/Forbes, is a combination of player and coaches salary as paid in the current season. This may be a bit misleading if one looks only at the cap for the Hawks. For example, when Joe Johnson signed his [first infamous contract](http://espn.go.com/nba/columns/story?columnist=stein_marc&id=2120960) with Atlanta in 2005, it included a signing bonus of around $13.5 million with total compensation around $67.5 million. Joe was paid almost $23 million his first season and then $10 million, $10.8 million, $11.5 million, and finally $12.3 million. But as for what Joe's cap hit looked like for the team, it was $12 million, $12.7 million, $13.5 million, $14.2 million, and finally $15 million.
 
@@ -80,7 +75,7 @@ It should be noted that the NBA enforces a salary cap on team spending each year
 Yearly Operating Income
 -----------------------
 
-![](img/nba-values-op_income-1.png)
+![](%7B%7B%20site.url%20%7D%7D/img/nba-values-op_income-1.png)
 
 To close out, here's what the Operating Income looks like. In yet another business metric, the Hawks appear to lag behind others although this is not as consistent since between 2001 and 2007 the team appears to have operated much closer to the League Average than in the other metrics. The teams which dominate in this category appear to also dominate in the revenues metric as measured by Financial World/Forbes. This harks back to the salary cap, which puts a constraint on spending at both the league and team level.
 
