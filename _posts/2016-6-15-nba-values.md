@@ -1,3 +1,8 @@
+---
+layout: post
+title: NBA Forbes Valuations
+---
+
 Forbes released their [2015--16 NBA Franchise Valuations](http://www.forbes.com/nba-valuations/) in January of this year, which provides the best public data on the financial performance of NBA teams. In the [early 1990s](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320022877/3389744314/1), the now defunct [Financial World](https://en.wikipedia.org/wiki/Financial_World) started compiling data on the NBA until 1998 when the magazine went out of business. In 1999, Forbes picked up where Financial World left off and here we are. All data are available from [Rod Fort's Sports Data](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320023265).
 
 Current Data Release
