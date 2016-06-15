@@ -1,81 +1,8 @@
----
-title: "NBA Forbes Valuations"
-author: "Robert Dinterman"
-date: "June 15, 2016"
-output: 
-  html_document: 
-    keep_md: yes
----
+# NBA Forbes Valuations
+Robert Dinterman  
+June 15, 2016  
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
-# ---- Libraries ----------------------------------------------------------
-libs <- c("dplyr", "ggplot2", "ggrepel", "ggthemes", "googlesheets",
-          "lubridate", "scales", "tidyr")
-sapply(libs, require, character.only = TRUE)
-# ---- Data Prep ----------------------------------------------------------
-nba <- gs_key("1ddwmSajM8sG2WeBHq4xSGNn7gnWL0oC9bO1bAO6-8Aw") %>%
-  gs_read(ws = "MASTER")
-names(nba) <- c("year", "team", "value", "change", "debt_value", "revenue",
-                "op_income", "debt", "gate", "other_rev", "player_cost",
-                "bender_cost", "other_cost", "ticket_price", "fci", "attend",
-                "home_espn", "attend_espn", "avg_attend_espn", "pct_fill",
-                "attend_bref", "playoffs")
-# Replace NA on player_cost w/ bender_cost and convert 1999 to 50 game prorata
-mutate(nba, player_cost = ifelse(is.na(player_cost), bender_cost, player_cost),
-       player_cost = ifelse(year == 1999, bender_cost*(50/82), player_cost),
-       # Finish the "other cost"
-       other_cost  = ifelse(is.na(other_cost) & !is.na(op_income),
-                            revenue - player_cost - op_income,
-                            other_cost)) -> nba
-######
-mean_roll <- function(x) ifelse(is.na(x), (lead(x) + lag(x)) / 2, x)
-nba <- nba %>% group_by(team) %>% 
-  mutate(value = mean_roll(value), revenue = mean_roll(revenue),
-         other_cost = mean_roll(other_cost),
-         op_income = ifelse(is.na(op_income),
-                            revenue - player_cost - other_cost,
-                            op_income))
-# OK, get the ticket and MSA and Arena info
-arenas <- gs_key("1BKD_V85-IxkZpgmB5iBDNuDRCXcf7sBMyNxT3izQry8") %>%
-  gs_read(ws = "Arenas")
-names(arenas) <- tolower(names(arenas))
-arenas <- arenas %>% group_by(team) %>% 
-  complete(season_begin = full_seq(season_begin:2016, 1), team) %>% 
-  fill(arena:pmsa_2) %>% 
-  rename(year = season_begin) %>% 
-  filter(year > 1946, !is.na(arena))
-# What to do about the years a team used 2 arenas?
-#  ATL in 1998 and 1999: call it 18,000
-#  MIN in 1990: call it 30,000
-arenas <- arenas %>%
-  mutate(capacity = ifelse(team == "ATL"&(year %in% c(1998, 1999)), 18000L,
-                           capacity),
-         capacity = ifelse(team == "MIN"&year == 1990, 30000L, capacity)) %>% 
-  filter(!(arena %in% c("Georgia Dome", "Met Center")))
-# CPI Data
-cpi <- read.csv("https://research.stlouisfed.org/fred2/data/CPIAUCSL.csv") %>% 
-  mutate(year = year(DATE)) %>% 
-  group_by(year) %>%
-  summarize(cpi = mean(VALUE))
-cpi$adj <- cpi$cpi / cpi$cpi[cpi$year == 2015] # sets the base year
-nba <- nba %>% left_join(cpi) %>% 
-  mutate(value_r = value / adj, revenue_r = revenue / adj,
-         op_income_r = op_income / adj, debt_r = debt / adj,
-         gate_r = gate / adj, other_rev_r = other_rev / adj,
-         player_cost_r = player_cost / adj, bender_cost_r = bender_cost / adj,
-         other_cost_r = other_cost / adj, ticket_price_r = ticket_price / adj,
-         fci_r = fci / adj)
-sales <- data.frame(label = c("AOL Time Warner \n at $184m",
-                              "Atlanta Spirit Group \n at $208m",
-                              "Meruelo at $300m \n (Failed Sale)",
-                              "Ressler at \n $730m"),
-                    value = c(184, 208, 300, 730),
-                    year = c(2001, 2004, 2011, 2015),
-                    year_p = c(2001.1, 2004.33, 2011.67, 2015.5)) %>% 
-  left_join(cpi) %>% 
-  mutate(value_r = value / adj)
-```
+
 
 Forbes released their [2015--16 NBA Franchise Valuations](http://www.forbes.com/nba-valuations/) in January of this year, which provides the best public data on the financial performance of NBA teams. In the [early 1990s](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320022877/3389744314/1), the now defunct [Financial World](https://en.wikipedia.org/wiki/Financial_World) started compiling data on the NBA until 1998 when the magazine went out of business. In 1999, Forbes picked up where Financial World left off and here we are. All data are available from [Rod Fort's Sports Data](https://umich.app.box.com/s/41707f0b2619c0107b8b/1/320023265).
 
@@ -109,21 +36,7 @@ Oh, and the national TV deal which is split between other NBA teams has also had
 
 # Historical Context
 
-```{r valuations}
-# Franchise Valuations
-ggplot(nba, aes(x = year+1, y = value_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_label_repel(data = sales, nudge_y = -200, nudge_x = 1,
-                   aes(x = year, y = value_r, label = label)) +
-  scale_y_continuous(labels = dollar) +
-  coord_cartesian(ylim = c(0, 1550)) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Forbes NBA Franchise Valuations \n
-       (in terms of millions of 2015 dollars)")
-```
+![](2016-6-15-nba-values_files/figure-html/valuations-1.png)<!-- -->
 
 _(The red line represents the Atlanta Hawks while the blue line represents the average franchise value with a 95% error bar in grey. Each dot represents an NBA team. For the 2015 year, there are 7 teams with a franchise valuation of over $1.5 billion and are not shown in the graph: Brooklyn, Golden State, LA Clippers, Boston, Chicago, LA Lakers, and New York.)_
 
@@ -139,78 +52,19 @@ Throughout the time, the valuation of the franchise steadily rose, although the 
 
 A course approximation of a businesses valuation can be apprised through revenues, costs, and profits. And Financial World/Forbes provides data on this for the whole set of NBA teams since 1990. We can look at yearly revenues across the NBA to see Atlanta's standing with its ~~business partners~~ competitors.
 
-```{r revenues}
-# Revenues
-outl <- nba %>% group_by(year) %>%
-  filter(abs(revenue_r - median(revenue_r)) > 2.25*sd(revenue_r))
-
-ggplot(nba, aes(x = year, y = revenue_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = dollar) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Forbes NBA Yearly Revenues \n
-       (in terms of millions of 2015 dollars)")
-```
+![](2016-6-15-nba-values_files/figure-html/revenues-1.png)<!-- -->
 
 The Hawks revenue flow has consistently lagged with respect to the rest of the NBA. At no point in time has Atlanta been above the mean in the NBA. Part of this is because of a slightly skewed distribution of revenues across teams, as can be seen that the top revenues each year is almost always comprised of the larger market teams (New York, Los Angeles, Chicago). Not surprisingly, these teams also consistently outpace the rest of the NBA in terms of cost of attendance.
 
-```{r fci}
-# Fan Cost Index
-outl <- nba %>% group_by(year) %>%
-  filter(abs(fci_r - median(fci_r)) > 2.25*sd(fci_r))
-ggplot(nba, aes(x = year, y = fci_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = dollar) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Team Marketing Report - Fan Cost Index \n
-       (in terms of 2015 dollars)")
-
-```
+![](2016-6-15-nba-values_files/figure-html/fci-1.png)<!-- -->
 
 _(Fan Cost Index (FCI) is a metric compiled by [Team Marketing Report](https://www.teammarketing.com/). The FCI comprises the price of four average-price tickets, two cheapest beers, four cheapest soft drinks, four hot dogs, parking for one car, two game programs and two least-expensive, adult-size hats.)_
 
-```{r ticket}
-# Ticket Price
-outl <- nba %>% group_by(year) %>%
-  filter(abs(ticket_price_r - median(ticket_price_r)) > 2.25*sd(ticket_price_r))
-ggplot(nba, aes(x = year, y = ticket_price_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = dollar) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Team Marketing Report - Ticket Price \n
-       (in terms of 2015 dollars)")
-```
+![](2016-6-15-nba-values_files/figure-html/ticket-1.png)<!-- -->
 
 It is a bit perplexing that the Hawks have increased their average ticket prices two times over these years to be above league average and yet their revenues were steadily increasing with no clear jumps in revenue flows. The obvious linkage here is the relationship between price and attendance for the team across the years. As seen below, Atlanta has consistently lagged behind all other franchises in attendance although for seasons before 1997 the Hawks were clearly constrained by the approximately 16,500 capacity of [The Omni](https://en.wikipedia.org/wiki/Omni_Coliseum).
 
-```{r attendance}
-# Attendance
-outl <- nba %>% group_by(year) %>%
-  filter(abs(attend_bref - median(attend_bref)) > 2.0*sd(attend_bref))
-ggplot(nba, aes(x = year, y = attend_bref)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = scales::comma) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Home Attendance \n
-       (Basketball-Reference.com)")
-
-```
+![](2016-6-15-nba-values_files/figure-html/attendance-1.png)<!-- -->
 
 Changes in attendance does not necessarily lead to higher or lower revenues as this is only half of the equation. Price has a great deal of influence over the revenues generated for a franchise. And much like one would never evaluate the success or failure over a company by simply looking at how many people purchased a product, one should not necessarily evaluate the success or failure of a franchise over how many attended a game. But this is to be expected if one ignores the price.
 
@@ -219,22 +73,7 @@ Changes in attendance does not necessarily lead to higher or lower revenues as t
 [^3]: I do not fully endorse or trust these Forbes values, but these are the best data as a whole for evaluating the NBA. An example for why I do not fully believe this values is that the Hawks' player costs for the 2014--15 season was $67 million. But if we look at their payroll it never exceeded $60 million that season.
 
 
-```{r salaries}
-# Salaries
-outl <- nba %>% group_by(year) %>%
-  filter(abs(player_cost_r - median(player_cost_r)) > 2.25*sd(player_cost_r))
-outl <- filter(outl, year > 1991)
-ggplot(nba, aes(x = year, y = player_cost_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = dollar) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Forbes NBA Yearly Player Expenses \n
-       (in terms of millions of 2015 dollars)")
-```
+![](2016-6-15-nba-values_files/figure-html/salaries-1.png)<!-- -->
 
 Player Costs, as measured by Financial World/Forbes, is a combination of player and coaches salary as paid in the current season. This may be a bit misleading if one looks only at the cap for the Hawks. For example, when Joe Johnson signed his [first infamous contract](http://espn.go.com/nba/columns/story?columnist=stein_marc&id=2120960) with Atlanta in 2005, it included a signing bonus of around $13.5 million with total compensation around $67.5 million. Joe was paid almost $23 million his first season and then $10 million, $10.8 million, $11.5 million, and finally $12.3 million. But as for what Joe's cap hit looked like for the team, it was $12 million, $12.7 million, $13.5 million, $14.2 million, and finally $15 million.
 
@@ -244,22 +83,7 @@ It should be noted that the NBA enforces a salary cap on team spending each year
 
 ## Yearly Operating Income
 
-```{r op_income}
-# Operating Income
-outl <- nba %>% group_by(year) %>%
-  filter( (year == 2003 & team == "CHI") | (year == 2006 & team == "CHI") |
-            abs(op_income_r - median(op_income_r)) > 2.25*sd(op_income_r))
-ggplot(nba, aes(x = year, y = op_income_r)) +
-  stat_summary(fun.data = "mean_cl_boot", geom = "smooth", size = 2) +
-  geom_point(alpha = 0.25) +
-  geom_line(data = filter(nba, team == "ATL"), col = "red", size = 1.5) + 
-  geom_text_repel(data = outl, aes(label = team)) +
-  scale_y_continuous(labels = dollar) +
-  theme_economist() +
-  labs(x="", y="",
-       title = "Forbes NBA Yearly Operating Income \n
-       (in terms of millions of 2015 dollars)")
-```
+![](2016-6-15-nba-values_files/figure-html/op_income-1.png)<!-- -->
 
 To close out, here's what the Operating Income looks like. In yet another business metric, the Hawks appear to lag behind others although this is not as consistent since between 2001 and 2007 the team appears to have operated much closer to the League Average than in the other metrics. The teams which dominate in this category appear to also dominate in the revenues metric as measured by Financial World/Forbes. This harks back to the salary cap, which puts a constraint on spending at both the league and team level.
 
