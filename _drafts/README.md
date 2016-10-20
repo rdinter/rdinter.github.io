@@ -9,6 +9,18 @@ Taken from [Nicole White's website](https://nicolewhite.github.io/2015/02/07/r-b
     - where XYZ is the new rmarkdown file
 5. Commit and push!
 
+The YAML that goes well with the rmarkdown files would be something like:
+
+```
+title: "NBA Forbes Valuations"
+author: "Robert Dinterman"
+date: "June 15, 2016"
+layout: post
+output:
+  md_document:
+    variant: markdown_github
+```
+
 # Blogging About R Code with R Markdown, Knitr, and Jekyll.
 
 I've been blogging with [Jekyll](http://jekyllrb.com/) for a while now, where most of my blogs contain snippets of R code. Previously, my workflow was somewhat sloppy: I would copy-paste the snippets of R code into my `.md` file along with the expected output of the code (e.g. printing a data.frame or number). However, I often ran into problems where I would change the code snippet but forget to change the output, thus creating disagreements between what the code snippet was doing and the expected output I had copy-pasted in previously. There's also the possibility that the R code had errors, but I wouldn't know because my blog posts weren't derived directly from the R code itself.
