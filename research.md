@@ -7,7 +7,7 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 
 # Working Papers
 
-### ["Broadband, Local Employment, and Population Growth,"](research_docs/Paper-2.pdf) (Job Market Paper).
+### ["Broadband, Local Employment, and Population Growth,"](research/Paper-2.pdf) (Job Market Paper).
 
 ABSTRACT: I investigate the relationship between broadband, employment, and population growth to determine the causal directions between these processes. Starting from the framework of simultaneous employment-population models, I introduce a model to account for the potential simultaneous process of broadband-employment-population for regional economies. The model is furthered by spatial econometric techniques and a causal interpretation is given between these three dynamic processes. By establishing a causal direction, the claim that broadband spurs job growth is quantitatively evaluated as well as other competing hypotheses across the three processes. Results indicate that broadband deployment is an endogenous process and correcting for endogeneity fails to find support of claims that assert broadband growth leads to employment growth for a region. This paper illuminates the need for structural models involving broadband in evaluating regional economic impacts.
 
