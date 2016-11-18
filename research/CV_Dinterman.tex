@@ -1,0 +1,240 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Robert F. Dinterman}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://rdinter.github.io/research/CV_Dinterman.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, regional economics, spatial econometrics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://aede.osu.edu/home}{The Ohio State University} \\
+  Department of Agricultural, Environmental, and Development Economics (AEDE) \\
+  Agricultural Administration Building \\
+  2120 Fyffe Road, Room 103 \\
+  Columbus, OH 43210-1067
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (919) 627-8622 \\
+    % Fax: &  (919) 513-5613 \\
+    Email: & \href{mailto:rdinter@ncsu.edu}{\tt rdinter@ncsu.edu} \\
+    Webpage: & \href{http://rdinter.github.io/}{\tt http://rdinter.github.io/} \\
+  \end{tabular}
+\end{minipage}
+
+
+% \section*{Personal}
+% 
+% \begin{itemize}
+% \item Born on September 29, 1895.
+% \item United States Citizen.
+% \end{itemize}
+% 
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Economics, North Carolina State University, 2016.
+    \subitem Fields: Regional Economics, Spatial Econometrics, and Applied Econometrics
+    %\subitem [Advanced level courses in Spatial Statistics]
+
+  \item M.E. Economics, North Carolina State University, 2011.
+
+  \item B.A. Philosophy \& Economics, Clemson University, 2008.
+\end{itemize}
+
+
+\section*{Employment}
+\begin{itemize}
+\item The Ohio State University:
+\begin{itemize}
+\item Post-Doctoral Researcher in Agribusiness, Department of Agricultural, Environmental, and Development Economics and Farm Income Enhancement Program, 2016 -- present.
+\end{itemize}
+\end{itemize}
+
+\section*{Research Experience}
+\begin{itemize}
+\item United States Department of Agriculture - Economic Research Services:
+\begin{itemize}
+\item Economist, Summer 2011, Summer 2012, and Summer 2014.
+\end{itemize}
+
+\item North Carolina State University, Department of Economics:
+\begin{itemize}
+\item Research Assistant, Chatham Park Economic Impact (Michael L. Walden), Fall 2014.
+\item Research Assistant, Various Projects (Mitch Renkow), Fall 2013.
+\item Research Assistant, Network Structure of Biopharmaceutical Patents (Turanay Caner), Fall 2010.
+\end{itemize}
+
+\item National Bureau of Economic Research:
+\begin{itemize}
+\item Research Assistant, Statistical Methods in Integrated Assessment Models (Michael J. Roberts), Summer 2010.
+\end{itemize}
+\end{itemize}
+
+\section*{Teaching Experience}
+\begin{itemize}
+\item North Carolina State University, Department of Economics:
+\begin{itemize}
+\item Instructor, EC 495 (Topics in Sports Economics), Fall 2012.
+\item Instructor, EC 351 (Introduction to Econometrics), Spring 2014 -- Summer 2014.
+\item Instructor, EC 202 (Principles of Macroeconomics), Fall 2010 -- Summer 2013.
+\item Teaching Assistant, EC 205 (Fundamentals of Economics), Fall 2009 -- Spring 2010.
+\end{itemize}
+
+\item Campbell University (Buies Creek, NC), Lundy-Fetterman School of Business:
+\begin{itemize}
+\item Lecturer, (Sports Economics, Principles of Macroeconomics), Spring 2014.
+\end{itemize}
+\end{itemize}
+
+\section*{Publications}
+
+\begin{itemize}
+\item Pender, J., and R. Dinterman. ``Developing a Typology of Wealth Creation Approaches and Contexts: Hypotheses and an example for the case of attracting retirees,'' in  John L. Pender, Bruce A. Weber, Thomas G. Johnson, and J. Matthew Fannin (eds.), \emph{Rural Wealth Creation}, Taylor \& Francis, 2014: 269--290.
+\item Stenberg, P., and R. Dinterman. ``The Digital Economy in the Western United States,'' \emph{Rural Connections}, vol. 6, no. 1 (September 2011): 43--48.
+\end{itemize}
+
+\subsection*{Working Papers}
+
+\begin{itemize}
+\item ``Broadband, Local Employment, and Population Growth,'' (Job Market Paper).
+\item ``Evaluation of USDA Broadband Loan Programs: Modeling Broadband Diffusion Across 1999 to 2008.'' \emph{Revise and Resubmit: Telecommunication Policy}
+\end{itemize}
+
+\subsection*{Works In Progress}
+
+\begin{itemize}
+\item ``Financial Stress and Farm Bankruptcies in U.S. Agriculture,'' with Ani Katchova (The Ohio State University) and Michael Harris (USDA-ERS).
+\item ``The Effect of High-Speed Internet on U.S. Farms: An Evaluation of the USDA Broadband Loan Program,'' with Ivan Kandilov (NC State), Mitch Renkow (NC State), Peter Stenberg (USDA-ERS).
+\item ``Measuring the Impact of Migration Flows: A Spaial Origin-to-Destination Model of Interregional Movement.''
+\end{itemize}
+
+\subsection*{Presentations}
+
+\begin{itemize}
+\item NC-1177 Agricultural and Rural Finance Markets in Transition, ``Financial Stress and Farm Bankruptcies in U.S. Agriculture,'' Denver, CO October 3rd 2016.
+\item North American Meetings of the Regional Science Association International, ``Broadband, Local Employment, and Population Growth,'' Washington, DC November 15th 2014.
+\item Southern Regional Sciences Association Meetings, ``A Spatiotemporal Model of Firm Growth and Broadband Availability: Evidence from North Carolina,'' San Antonio, TX March 28th 2014.
+\item Southern Regional Sciences Association Meetings, ``Attracting Retirees as a Rural Development Strategy: Identifying and Mapping the Potential,'' Washington, DC April 5th 2013.
+\end{itemize}
+
+
+\section*{Professional Associations}
+
+\begin{itemize}
+\item Member, Agricultural \& Applied Economics Association (AAEA).
+\item Member, Southern Regional Sciences Association (SRSA).
+\end{itemize}
+
+
+\section*{Proficiencies}
+
+\begin{itemize}
+\item R, Matlab, ArcGIS, SAS, Stata, \LaTeX.
+\end{itemize}
+
+
+\section*{References}
+
+\begin{itemize}
+\item Mitch Renkow \\ Professor of Agricultural and Resource Economics \\ North Carolina State University \\ \href{mailto:mitch\_renkow@ncsu.edu}{\tt mitch\_renkow@ncsu.edu} \\ Office: (919) 515-5179
+\item Ivan Kandilov \\ Associate Professor of Agricultural and Resource Economics \\ North Carolina State University \\ \href{mailto:ivan\_kandilov@ncsu.edu}{\tt ivan\_kandilov@ncsu.edu} \\ Office: (919) 513-3713
+\item Barry K. Goodwin \\ William Neal Reynolds Distinguished Professor \\ North Carolina State University \\ \href{mailto:barry\_goodwin@ncsu.edu}{\tt barry\_goodwin@ncsu.edu} \\ Office: (919) 515-4620
+\item Tamah Morant (Teaching) \\ Economics Graduate Programs Director \\ North Carolina State University \\ \href{mailto:tamah\_morant@ncsu.edu}{\tt tamah\_morant@ncsu.edu} \\ Office: (919) 515-4616
+\end{itemize}
+
+% \subsection*{Teaching}
+% \begin{itemize}
+% \item David Hyman \\ Alumni Distinguished Undergraduate Professor of Economics \\ North Carolina State University \\ \href{mailto:david\_hyman@ncsu.edu}{\tt david\_hyman@ncsu.edu} \\ Office: (919) 513-2868
+% \item Tamah Morant \\ Economics Graduate Programs Director \\ North Carolina State University \\ \href{mailto:tamah\_morant@ncsu.edu}{\tt tamah\_morant@ncsu.edu} \\ Office: (919) 515-4616
+% \end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{http://rdinter.github.io/research/CV\_Dinterman.pdf}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
