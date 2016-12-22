@@ -84,4 +84,4 @@ And here, we get a nice picture of state level variation in farmer bankruptcy ra
 
 Hopefully you found this to be a helpful excerise.
 
-*Source code for this specific .Rmd file can be found in my [github repository](https://github.com/rdinter/rdinter.github.io/blob/master/_drafts/nba-values.Rmd) while all the R code and data files necessary to reproduce these maps can be found in its [accompanying folder](https://github.com/rdinter/rdinter.github.io/tree/master/_drafts/hexbins) below that directory.*
+*Source code for this specific .Rmd file can be found in my [github repository](https://github.com/rdinter/rdinter.github.io/blob/master/_drafts/hexbin-animation.Rmd) while all the R code and data files necessary to reproduce these maps can be found in its [accompanying folder](https://github.com/rdinter/rdinter.github.io/tree/master/_drafts/hexbins) below that directory.*
