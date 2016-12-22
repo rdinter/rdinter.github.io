@@ -24,6 +24,14 @@ output:
 ---
 ```
 
+And inside each of the rmarkdown files need to have some loose setting for glocal chunk options like:
+
+````
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, include=TRUE, message=FALSE, results="hide", fig.keep="last", fig.show="asis", fig.path="../img/XYZ-")
+```
+````
+
 I will leave the readme associated with the code I found for converting rmarkdown to a blog post below for better reference. Enjoy!
 
 # Blogging About R Code with R Markdown, Knitr, and Jekyll.
