@@ -14,7 +14,7 @@ read_chunk("hexbins/hexbins_plot.R")
 ```
 
 ```{r global_options, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, include = FALSE, fig.path='../img/hexbin-animation-')
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, include=TRUE, message=FALSE, results="hide", fig.keep="last", fig.show="asis", fig.path="../img/hexbin-animation-")
 ```
 
 ```{r Start, include=FALSE}
@@ -53,7 +53,7 @@ These are OK for a static representation of bankruptcies, which is what one woul
 
 One thing that is lacking with these two maps is that they don't convey any temporal relationship. This would be fine if there wasn't much variation across time, except there is a fair amount due to changes in bankruptcies law. So because of this, I turned to the `gganimate` package to create a gif of bankruptcies over time:
 
-```{r Animate-Albers, echo = TRUE}
+```{r Animate-Albers, echo=TRUE}
 <<Animate-Albers>>
 ```
 ![](../img/hexbin-animation-animate_albers.gif)
@@ -68,13 +68,13 @@ This had me thinking, this is a scenario where I'd like to have each state equal
 
 So why not apply this particular cartography technique, but to farmer bankruptcies to illustrate the problem that is Massachusetts? One valid argument is that the court districts are the level of interest here, so I'm going to have to sacrifice some accuracy in order to effectively point out the particular data issue related to Massachusetts.
 
-```{r Maps, echo = TRUE}
+```{r Maps, echo=TRUE}
 <<Maps>>
 ```
 
 Now, each state is equally represented and we can see that Massachuesetts is clearly high on the bankruptcy rates. But has this always been the case? Well not necessarily. So let's apply the animation methods with this hexbin map to get a clearer picture:
 
-```{r Animate, echo = TRUE}
+```{r Animate, echo=TRUE}
 <<Animate>>
 ```
 
