@@ -1,25 +1,30 @@
 # How-To
 
-Taken from [Nicole White's website](https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) on how-to blog with r code, rmarkdown, and jekyll. Reproduced from the markdown file below. About the only thing that _I_ changed was `images` to `img` and the `r2jekyll.R` to a lowercase `r2jekyll.r`. Other than that, my routine is to now:
+Taken from [Nicole White's website](https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html) on how-to blog with r code, rmarkdown, and jekyll. Reproduced from the markdown file below. About the only thing that _I_ changed was `images` to `img`. Other than that, my routine is to now:
 
 1. Make an rmarkdown file in `_drafts` folder.
 2. Open up shell in RStudio (Tools -> Shell...).
 3. `cd _drafts` - enter.
-4. `./r2jekyll.R exploring-the-cars-dataset.Rmd` - enter.
+4. Double check that the R code is executable, so run `chmod +x r2jekyll.R` (and possibly add a sudo).
+5. `./r2jekyll.R XYZ.Rmd` - enter.
     - where XYZ is the new rmarkdown file
-5. Commit and push!
+6. Commit and push!
 
 The YAML that goes well with the rmarkdown files would be something like:
 
 ```
-title: "NBA Forbes Valuations"
+---
+title: "Hexbin Animation"
 author: "Robert Dinterman"
-date: "June 15, 2016"
+date: "December 22, 2016"
 layout: post
 output:
   md_document:
     variant: markdown_github
+---
 ```
+
+I will leave the readme associated with the code I found for converting rmarkdown to a blog post below for better reference. Enjoy!
 
 # Blogging About R Code with R Markdown, Knitr, and Jekyll.
 
