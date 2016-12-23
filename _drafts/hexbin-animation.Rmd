@@ -1,7 +1,7 @@
 ---
 title: "Hexbin Animation"
 author: "Robert Dinterman"
-date: "December 22, 2016"
+date: "December 23, 2016"
 layout: post
 output:
   md_document:
@@ -35,7 +35,7 @@ Since I have District level data, my first inclination was to produce a [choropl
 2. In the same vein as above, I know a bit about [projections of spatial data](http://www4.ncsu.edu/~rdinter/Spatial/topic3.html). I need to try and present a visually pleasing representation of the United States and have visible states here. Something like an [Albers Projection](http://desktop.arcgis.com/en/arcmap/latest/map/projections/albers-equal-area-conic.htm) should be nice as it makes states proportional to the area they occupy.
 3. As this is a choropleth, I need a color scale that reflects intensity well and is robust to all kinds of color blindness. Enter the [viridis scale](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) which is also a great package in R.
 
-With all this in mind, my first crack at figuring out what bankruptcy rates look like I applied a few R techniques. Grab a county-level shapefile, aggregate the counties up to the district level, project the spatialpolygon to Albers, and plot the district level map. The end result seemed kind of nice:
+With all this in mind, my first crack at figuring out what bankruptcy rates look like I applied a few R techniques. Grab a county-level shapefile, aggregate the counties up to the district level, project the spatial-polygon to Albers, and plot the district level map. The end result seemed kind of nice:
 
 ```{r Albers}
 <<Albers>>
@@ -53,10 +53,10 @@ These are OK for a static representation of bankruptcies, which is what one woul
 
 One thing that is lacking with these two maps is that they don't convey any temporal relationship. This would be fine if there wasn't much variation across time, except there is a fair amount due to changes in bankruptcies law. So because of this, I turned to the `gganimate` package to create a gif of bankruptcies over time:
 
-```{r Animate-Albers, echo=TRUE}
+```{r Animate-Albers, echo=TRUE, fig.show = "animate"}
 <<Animate-Albers>>
 ```
-![](../img/hexbin-animation-animate_albers.gif)
+<!-- ![](../img/hexbin-animation-animate_albers.gif) -->
 
 At first glance, I think this turns out to be a pretty good visualization for bankruptcies over time. We've got spatial and temporal variation and it's displayed in a manner that can convey them. But, does it really? The more I dug into the data the more I found this graphic to be misleading.
 
@@ -72,16 +72,16 @@ So why not apply this particular cartography technique, but to farmer bankruptci
 <<Maps>>
 ```
 
-Now, each state is equally represented and we can see that Massachuesetts is clearly high on the bankruptcy rates. But has this always been the case? Well not necessarily. So let's apply the animation methods with this hexbin map to get a clearer picture:
+Now each state is equally represented. But it is not clear here that Massachusetts is an outlier. It actually looks as if Massachusetts has a low rate of farmer bankruptcies compared to the rest of the US across 1997 and 2016. So if we want to illustrate that Massachusetts is an outlier, which it is in later years, then we need to animate this hexbin map. So let's do that:
 
-```{r Animate, echo=TRUE}
+```{r Animate, echo=TRUE, fig.show = "animate"}
 <<Animate>>
 ```
 
-![](../img/hexbin-animation-hex-map-b_rates.gif)
+<!-- ![](../img/hexbin-animation-hex-map-b_rates.gif) -->
 
-And here, we get a nice picture of state level variation in farmer bankruptcy rates. Which was a lesson to me in recognizing that there's many ways to visualize your data. And this has had further implications for how I have decided to model farmer bankruptcy rates that I might not have considered before I fully devled into the data.
+And here, we get a nice picture of state level variation in farmer bankruptcy rates. Which was a lesson to me in recognizing that there's many ways to visualize your data. And this has had further implications for how I have decided to model farmer bankruptcy rates that I might not have considered before I fully delved into the data.
 
-Hopefully you found this to be a helpful excerise.
+Hopefully you found this to be a helpful exercise.
 
 *Source code for this specific .Rmd file can be found in my [github repository](https://github.com/rdinter/rdinter.github.io/blob/master/_drafts/hexbin-animation.Rmd) while all the R code and data files necessary to reproduce these maps can be found in its [accompanying folder](https://github.com/rdinter/rdinter.github.io/tree/master/_drafts/hexbins) below that directory.*

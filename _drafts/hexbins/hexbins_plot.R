@@ -96,7 +96,6 @@ ggplot(gg_first, aes(long, lat, group = group)) +
 
 # ---- Albers-Count -------------------------------------------------------
 
-
 ggplot(gg_first, aes(long, lat, group = group)) +
   geom_polygon(aes(fill = CHAP_12), color = "black") +
   geom_path(data = gg_state, color = "white") +
@@ -121,8 +120,9 @@ ggplot(gg_first, aes(long, lat, group = group)) +
 
 # ---- Animate-Albers -----------------------------------------------------
 
-# Animate ...
-library(gganimate)
+# Animate ..., uncomment below if you don't have the gganimate package
+# devtools::install_github("dgrtwo/gganimate")
+library(gganimate) # this package makes the .gif by utilizing "frame"
 
 gg_anime <- j5 %>% 
   group_by(DISTRICT, FISCAL_YEAR) %>% 
@@ -150,8 +150,7 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
         plot.subtitle = element_text(size = 14))
-#gg_animate(anim)
-#gg_animate(anim, "animate_albers.gif")
+gg_animate(anim)
 
 # ---- Maps ---------------------------------------------------------------
 
@@ -206,17 +205,11 @@ ggplot(hex_map_data, aes(long, lat)) +
 
 # ---- Animate-Ugly -------------------------------------------------------
 
-#devtools::install_github("dgrtwo/gganimate")
-library(gganimate) # this package makes the .gif by utilizing "frame"
-
 p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
   geom_polygon(aes(group = group, fill = 10000*CHAP_12 / farms),
                colour = "white") +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4)
 gg_animate(p)
-# Uncomment below if you want to save it:
-# gg_animate(p, "hex-map-b_rates-ugly.gif")
-
 
 # ---- Animate ------------------------------------------------------------
 
@@ -239,6 +232,4 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
         plot.subtitle = element_text(size = 14))
-#gg_animate(p)
-# Uncomment to save
-#gg_animate(p, "hex-map-b_rates.gif")
+gg_animate(p)
