@@ -17,7 +17,7 @@ baseurl: ""
 title: Robert Dinterman
 
 # Short description of your site
-description: A professional site for Robert Dinterman, economics PhD candidate at NC State
+description: A professional site for Robert Dinterman, Postdoctoral Researcher at The Ohio State University.
 
 # --- Navigation bar options --- #
 
@@ -48,7 +48,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Robert Dinterman
-  email: "rdinter@ncsu.edu"
+  email: "dinterman.1@osu.edu"
   #facebook: yourname  # eg. daattali
   github: rdinter     # eg. daattali
   twitter: r_dinter   # eg. daattali
@@ -94,14 +94,14 @@ google_analytics: "UA-77026562-1"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 100
 
 # Facebook App ID
 # fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 100
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
