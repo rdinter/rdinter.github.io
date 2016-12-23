@@ -76,8 +76,7 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
 gg_animate(anim)
 ```
 
-<video   controls loop><source src="../img/hexbin-animation-Animate-Albers-.webm" /><p>video of chunk Animate-Albers</p></video>
-<!-- ![](../img/hexbin-animation-animate_albers.gif) -->
+![](../img/hexbin-animation-animate_albers.gif)
 
 At first glance, I think this turns out to be a pretty good visualization for bankruptcies over time. We've got spatial and temporal variation and it's displayed in a manner that can convey them. But, does it really? The more I dug into the data the more I found this graphic to be misleading.
 
@@ -169,9 +168,7 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
 gg_animate(p)
 ```
 
-<video   controls loop><source src="../img/hexbin-animation-Animate-.webm" /><p>video of chunk Animate</p></video>
-
-<!-- ![](../img/hexbin-animation-hex-map-b_rates.gif) -->
+![](../img/hexbin-animation-hex-map-b_rates.gif)
 
 And here, we get a nice picture of state level variation in farmer bankruptcy rates. Which was a lesson to me in recognizing that there's many ways to visualize your data. And this has had further implications for how I have decided to model farmer bankruptcy rates that I might not have considered before I fully delved into the data.
 
