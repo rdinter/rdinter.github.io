@@ -1,6 +1,8 @@
 # You may need to install some packages in R, to do so use "install.packages()"
 # install.packages(c("tidyvese", "devtools", "maptools",
-#                    "rgdal", "scales", "viridis"))
+#                    "rgdal", "scales", "viridis", "sp"))
+# devtools::install_github("hrbrmstr/albersusa")
+# devtools::install_github("dgrtwo/gganimate")
 
 # ---- Start --------------------------------------------------------------
 
@@ -99,18 +101,17 @@ ggplot(gg_first, aes(long, lat, group = group)) +
 ggplot(gg_first, aes(long, lat, group = group)) +
   geom_polygon(aes(fill = CHAP_12), color = "black") +
   geom_path(data = gg_state, color = "white") +
-  # geom_path(data = gg_circuit, color = "grey") +
   labs(title = "Total Farmer Bankruptcies Filed", 
        subtitle = "From 1997 to 2016") +
   scale_fill_viridis(limits = c(0, 400), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
@@ -138,14 +139,14 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
   labs(title = "Bankruptcies filed in", 
        subtitle = "Annualized per 10,000 farms") +
   scale_fill_viridis(limits = c(0,20), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
@@ -162,8 +163,6 @@ url_hex <- paste0("https://gist.githubusercontent.com/hrbrmstr/",
                   "us_states_hexgrid.geojson")
 download.file(url_hex, "us_states_hexgrid.geojson")
 
-
-library(maptools)
 library(rgdal)
 
 us      <- readOGR("us_states_hexgrid.geojson", "OGRGeoJSON")
@@ -192,14 +191,14 @@ ggplot(hex_map_data, aes(long, lat)) +
   labs(title = "Bankruptcies filed across 1997 to 2016", 
        subtitle = "Annualized per 10,000 farms") +
   scale_fill_viridis(limits = c(0,20), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 12))
 
@@ -226,8 +225,8 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),

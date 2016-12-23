@@ -17,7 +17,7 @@ output:
 
 # Maps and Their Frustrations
 
-A few months ago, I was struggling to understand a data problem. The specific problem isn't too important here, but it can be loosely characterized as trying to figure out how and why farmer bankruptcy rates vary across time and space. Before I started to think about what factors may cause bankruptcy rates to vary either spatially or temporally, I wanted to know what these bankruptcy rates looked like. The data that's available on this topic is from the [United States Courts](http://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=38&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=) website. There's a few different tables of information, but I had table F-2 data at the District level going back to 1997 Districts are basically States or sub-divisions of States and look as such:
+A few months ago, I was struggling to understand a data problem. The specific problem isn't too important here, but it can be loosely characterized as trying to figure out how and why farmer bankruptcy rates vary across time and space. Before I started to think about what factors may cause bankruptcy rates to vary either spatially or temporally, I wanted to know what these bankruptcy rates looked like. The data that's available on this topic is from the [United States Courts](http://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=38&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=) website. There's a few different tables of information, but I had table F-2 data at the district level going back to 1997. Districts are basically States or sub-divisions of States and look as such:
 
 ![District Court Map](https://upload.wikimedia.org/wikipedia/commons/d/df/US_Court_of_Appeals_and_District_Court_map.svg)
 
@@ -27,7 +27,7 @@ Since I have District level data, my first inclination was to produce a [choropl
 2. In the same vein as above, I know a bit about [projections of spatial data](http://www4.ncsu.edu/~rdinter/Spatial/topic3.html). I need to try and present a visually pleasing representation of the United States and have visible states here. Something like an [Albers Projection](http://desktop.arcgis.com/en/arcmap/latest/map/projections/albers-equal-area-conic.htm) should be nice as it makes states proportional to the area they occupy.
 3. As this is a choropleth, I need a color scale that reflects intensity well and is robust to all kinds of color blindness. Enter the [viridis scale](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) which is also a great package in R.
 
-With all this in mind, my first crack at figuring out what bankruptcy rates look like I applied a few R techniques. Grab a county-level shapefile, aggregate the counties up to the district level, project the spatial-polygon to Albers, and plot the district level map. The end result seemed kind of nice:
+With all this in mind, my first crack at figuring out what bankruptcy rates look like I applied a few R techniques. Grab a county-level shapefile, aggregate the counties up to the district level, project the spatialpolygons to Albers, and plot the district level map. The end result seemed kind of nice:
 
 ![plot of chunk Albers](../img/hexbin-animation-Albers-1.png)
 
