@@ -23,7 +23,7 @@ A few months ago, I was struggling to understand a data problem. The specific pr
 
 Since I have District level data, my first inclination was to produce a [choropleth](https://bl.ocks.org/mbostock/4060606). My initial thoughts were:
 
-1. Plotting raw count data is usually a bad idea because they generally mimic population density. I know that farms aren't distributed equally across the US, which already implies bankruptcies won't be equally distributed. The only reason I'm looking at bankruptcy rates is to evaluate the financial conditions of an area, I don't want a map of farm activity. So I need to put this in terms of rates.
+1. Plotting raw count data is usually a bad idea because they generally mimic population density. I know that farms aren't distributed equally across the US, which likely implies bankruptcies won't be equally distributed. The only reason I'm looking at bankruptcy rates is to evaluate the financial conditions of an area, I don't want a map of farm activity. So I need to put this in terms of rates.
 2. In the same vein as above, I know a bit about [projections of spatial data](http://www4.ncsu.edu/~rdinter/Spatial/topic3.html). I need to try and present a visually pleasing representation of the United States and have visible states here. Something like an [Albers Projection](http://desktop.arcgis.com/en/arcmap/latest/map/projections/albers-equal-area-conic.htm) should be nice as it makes states proportional to the area they occupy.
 3. As this is a choropleth, I need a color scale that reflects intensity well and is robust to all kinds of color blindness. Enter the [viridis scale](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) which is also a great package in R.
 
@@ -31,7 +31,7 @@ With all this in mind, my first crack at figuring out what bankruptcy rates look
 
 ![plot of chunk Albers](../img/hexbin-animation-Albers-1.png)
 
-This seems fine, although there really aren't that many farmer bankruptcy filings over time, so it's actually reasonable to check out what the total values would look like as opposed to the filing rates as above:
+This seems fine, although there really aren't many farmer bankruptcy filings over time, so it's actually reasonable to check out what the total values would look like as opposed to the filing rates as above:
 
 ![plot of chunk Albers-Count](../img/hexbin-animation-Albers-Count-1.png)
 
@@ -60,15 +60,15 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
   geom_path(data = gg_state, color = "white") +
   labs(title = "Bankruptcies filed in", 
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
@@ -76,7 +76,7 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
 gg_animate(anim)
 ```
 
-![](../img/hexbin-animation-animate_albers.gif)
+![](../img/hexbin-animation-animate-albers.gif)
 
 At first glance, I think this turns out to be a pretty good visualization for bankruptcies over time. We've got spatial and temporal variation and it's displayed in a manner that can convey them. But, does it really? The more I dug into the data the more I found this graphic to be misleading.
 
@@ -90,23 +90,13 @@ So why not apply this particular cartography technique, but to farmer bankruptci
 
 
 ```r
-# There's a great blog post that guided this snippet of code, here it is:
-# http://bit.ly/2geOZsS
-url_hex <- paste0("https://gist.githubusercontent.com/hrbrmstr/",
-                  "51f961198f65509ad863/raw/",
-                  "219173f69979f663aa9192fbe3e115ebd357ca9f/",
-                  "us_states_hexgrid.geojson")
-download.file(url_hex, "us_states_hexgrid.geojson")
-
-
-library(maptools)
 library(rgdal)
 
-us      <- readOGR("us_states_hexgrid.geojson", "OGRGeoJSON")
-centers <- cbind.data.frame(coordinates(us), as.character(us$iso3166_2))
+us      <- readOGR("usa_hex.geojson", "OGRGeoJSON")
+centers <- cbind.data.frame(coordinates(us), as.character(us$st_abb))
 names(centers) <- c("x", "y", "id")
 
-us_map  <- fortify(us, region = "iso3166_2")
+us_map  <- fortify(us, region = "st_abb")
 us_map$ST_ABRV <- us_map$id
 
 banks_state <- j5 %>% 
@@ -127,7 +117,7 @@ ggplot(hex_map_data, aes(long, lat)) +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed across 1997 to 2016", 
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
   theme(panel.background = element_blank(), # remove various background facets
         panel.grid = element_blank(),
         axis.line = element_blank(),
@@ -152,15 +142,15 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed in",
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 14),
         plot.title = element_text(size = 20),
@@ -168,7 +158,7 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
 gg_animate(p)
 ```
 
-![](../img/hexbin-animation-hex-map-b_rates.gif)
+![](../img/hexbin-animation-hex-map-b-rates.gif)
 
 And here, we get a nice picture of state level variation in farmer bankruptcy rates. Which was a lesson to me in recognizing that there's many ways to visualize your data. And this has had further implications for how I have decided to model farmer bankruptcy rates that I might not have considered before I fully delved into the data.
 

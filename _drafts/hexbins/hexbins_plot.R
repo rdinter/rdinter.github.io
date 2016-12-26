@@ -138,7 +138,7 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
   geom_path(data = gg_state, color = "white") +
   labs(title = "Bankruptcies filed in", 
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
@@ -155,21 +155,13 @@ gg_animate(anim)
 
 # ---- Maps ---------------------------------------------------------------
 
-# There's a great blog post that guided this snippet of code, here it is:
-# http://bit.ly/2geOZsS
-url_hex <- paste0("https://gist.githubusercontent.com/hrbrmstr/",
-                  "51f961198f65509ad863/raw/",
-                  "219173f69979f663aa9192fbe3e115ebd357ca9f/",
-                  "us_states_hexgrid.geojson")
-download.file(url_hex, "us_states_hexgrid.geojson")
-
 library(rgdal)
 
-us      <- readOGR("us_states_hexgrid.geojson", "OGRGeoJSON")
-centers <- cbind.data.frame(coordinates(us), as.character(us$iso3166_2))
+us      <- readOGR("usa_hex.geojson", "OGRGeoJSON")
+centers <- cbind.data.frame(coordinates(us), as.character(us$st_abb))
 names(centers) <- c("x", "y", "id")
 
-us_map  <- fortify(us, region = "iso3166_2")
+us_map  <- fortify(us, region = "st_abb")
 us_map$ST_ABRV <- us_map$id
 
 banks_state <- j5 %>% 
@@ -190,15 +182,15 @@ ggplot(hex_map_data, aes(long, lat)) +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed across 1997 to 2016", 
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
-  theme(panel.background = element_blank(),
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
+  theme(panel.background = element_blank(), # remove various background facets
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom",
-        legend.title = element_blank(),
+        legend.position = "bottom", # move the legend
+        legend.title = element_blank(), #remove the legend's title
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 12))
 
@@ -218,7 +210,7 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed in",
        subtitle = "Annualized per 10,000 farms") +
-  scale_fill_viridis(limits = c(0,20), oob = squish) +
+  scale_fill_viridis(limits = c(0,10), oob = squish) +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
