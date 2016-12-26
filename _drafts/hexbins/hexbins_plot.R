@@ -166,7 +166,7 @@ us_map$ST_ABRV <- us_map$id
 
 banks_state <- j5 %>% 
   select(STATE, FISCAL_YEAR, TOTAL_FILINGS:NB_CHAP13, farms) %>% 
-  group_by(FISCAL_YEAR, STATE, farms) %>% 
+  group_by(FISCAL_YEAR, STATE) %>% 
   summarise_all(funs(sum(., na.rm = T))) %>% 
   mutate(ST_ABRV = state.abb[match(STATE, toupper(state.name))],
          ST_ABRV = ifelse(STATE == "DISTRICT OF COLUMBIA", "DC", ST_ABRV))
@@ -176,21 +176,25 @@ hex_map_data <- as.tbl(us_map) %>%
   left_join(centers) %>%
   filter(!is.na(long))
 
-ggplot(hex_map_data, aes(long, lat)) +
+hex_map_data %>% 
+  group_by(long, lat, order, hole, piece, id, group, ST_ABRV, STATE, x, y) %>% 
+  summarise_all(funs(sum(., na.rm = T))) %>% 
+  arrange(order) %>% 
+  ggplot(aes(long, lat)) +
   geom_polygon(aes(group = group, fill = 10000*CHAP_12 / farms),
                colour = "white") +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed across 1997 to 2016", 
        subtitle = "Annualized per 10,000 farms") +
   scale_fill_viridis(limits = c(0,10), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 12))
 

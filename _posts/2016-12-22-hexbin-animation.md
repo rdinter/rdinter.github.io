@@ -76,7 +76,7 @@ anim <- ggplot(gg_anime, aes(long, lat, group = group)) +
 gg_animate(anim)
 ```
 
-![](../img/hexbin-animation-animate-albers.gif)
+![](../img/hexbin-animation-animate_albers.gif)
 
 At first glance, I think this turns out to be a pretty good visualization for bankruptcies over time. We've got spatial and temporal variation and it's displayed in a manner that can convey them. But, does it really? The more I dug into the data the more I found this graphic to be misleading.
 
@@ -101,7 +101,7 @@ us_map$ST_ABRV <- us_map$id
 
 banks_state <- j5 %>% 
   select(STATE, FISCAL_YEAR, TOTAL_FILINGS:NB_CHAP13, farms) %>% 
-  group_by(FISCAL_YEAR, STATE, farms) %>% 
+  group_by(FISCAL_YEAR, STATE) %>% 
   summarise_all(funs(sum(., na.rm = T))) %>% 
   mutate(ST_ABRV = state.abb[match(STATE, toupper(state.name))],
          ST_ABRV = ifelse(STATE == "DISTRICT OF COLUMBIA", "DC", ST_ABRV))
@@ -111,28 +111,32 @@ hex_map_data <- as.tbl(us_map) %>%
   left_join(centers) %>%
   filter(!is.na(long))
 
-ggplot(hex_map_data, aes(long, lat)) +
+hex_map_data %>% 
+  group_by(long, lat, order, hole, piece, id, group, ST_ABRV, STATE, x, y) %>% 
+  summarise_all(funs(sum(., na.rm = T))) %>% 
+  arrange(order) %>% 
+  ggplot(aes(long, lat)) +
   geom_polygon(aes(group = group, fill = 10000*CHAP_12 / farms),
                colour = "white") +
   geom_text(aes(label = id, x = x, y = y), color = "white", size = 4) +
   labs(title = "Bankruptcies filed across 1997 to 2016", 
        subtitle = "Annualized per 10,000 farms") +
   scale_fill_viridis(limits = c(0,10), oob = squish) +
-  theme(panel.background = element_blank(), # remove various background facets
+  theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.line = element_blank(),
         axis.title = element_blank(),
         axis.ticks = element_blank(),
         axis.text = element_blank(),
-        legend.position = "bottom", # move the legend
-        legend.title = element_blank(), #remove the legend's title
+        legend.position = "bottom",
+        legend.title = element_blank(),
         legend.key.width = unit(2, "cm"),
         legend.text = element_text(size = 12))
 ```
 
 ![plot of chunk Maps](../img/hexbin-animation-Maps-1.png)
 
-Now each state is equally represented. But it is not clear here that Massachusetts is an outlier. It actually looks as if Massachusetts has a low rate of farmer bankruptcies compared to the rest of the US across 1997 and 2016. So if we want to illustrate that Massachusetts is an outlier, which it is in later years, then we need to animate this hexbin map. So let's do that:
+Now each state is equally represented and now it is clear that Massachusetts is an outlier. But has this always been the case? Well not necessarily. So let's apply the animation methods with this hexbin map to get a clearer picture:
 
 
 ```r
@@ -158,7 +162,7 @@ p <- ggplot(hex_map_data, aes(long, lat, frame = FISCAL_YEAR)) +
 gg_animate(p)
 ```
 
-![](../img/hexbin-animation-hex-map-b-rates.gif)
+![](../img/hexbin-animation-hex-map-b_rates.gif)
 
 And here, we get a nice picture of state level variation in farmer bankruptcy rates. Which was a lesson to me in recognizing that there's many ways to visualize your data. And this has had further implications for how I have decided to model farmer bankruptcy rates that I might not have considered before I fully delved into the data.
 

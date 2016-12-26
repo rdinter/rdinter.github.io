@@ -72,7 +72,7 @@ So why not apply this particular cartography technique, but to farmer bankruptci
 <<Maps>>
 ```
 
-Now each state is equally represented. But it is not clear here that Massachusetts is an outlier. It actually looks as if Massachusetts has a low rate of farmer bankruptcies compared to the rest of the US across 1997 and 2016. So if we want to illustrate that Massachusetts is an outlier, which it is in later years, then we need to animate this hexbin map. So let's do that:
+Now each state is equally represented and now it is clear that Massachusetts is an outlier. But has this always been the case? Well not necessarily. So let's apply the animation methods with this hexbin map to get a clearer picture:
 
 ```{r Animate, echo=TRUE, fig.show = "animate"}
 <<Animate>>
