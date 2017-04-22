@@ -46,6 +46,10 @@ navbar-links:
 # then specify the following parameter
 # title-img: /path/to/image
 
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -103,6 +107,9 @@ disqus: "robertdinterman"
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-77026562-1"
 
+# Google Tag Manager ID
+#gtm: ""
+
 # Facebook App ID
 # fb_app_id: ""
 
@@ -119,6 +126,10 @@ excerpt_length: 100
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 100
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
