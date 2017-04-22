@@ -42,6 +42,10 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 #avatar: "/img/avatar-icon.png"
 
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -52,8 +56,16 @@ author:
   #facebook: yourname  # eg. daattali
   github: rdinter     # eg. daattali
   twitter: r_dinter   # eg. daattali
-  #linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
+  #reddit: yourname    # eg. daattali
+  #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
+  #linkedin: yourname  # eg. daattali
+  #xing: yourname      # eg. daattali
   #stackoverflow: yourlink  # eg. "3943160/daattali"
+  #snapchat: yourname  # eg. daattali
+  #instagram: yourname # eg. daattali
+  #youtube: yourlink   # eg. user/daattali or channel/daattali
+  #spotify: yourname   # eg. daattali
+  #telephone: yourphone   # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
@@ -63,6 +75,7 @@ footer-links-active:
   twitter: true
   google-plus: false
   github: true
+  reddit: false
   linkedin: false
   xing: false
   stackoverflow: false
@@ -70,6 +83,7 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
+  telephone: false
 
 # Select which share links to show in posts
 share-links-active:
@@ -96,12 +110,19 @@ google_analytics: "UA-77026562-1"
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 100
 
+# Google Tag Manager ID
+#gtm: ""
+
 # Facebook App ID
 # fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 100
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -137,11 +158,13 @@ link-tags: false
 
 # Exclude these files from production site
 exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
   - Vagrantfile
 
 # prose.io config
@@ -182,6 +205,13 @@ prose:
           label: "Date"
           help: "Enter date of post."
           placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
           alterable: true
       - name: "published"
         field:
