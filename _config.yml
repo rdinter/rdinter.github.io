@@ -24,11 +24,11 @@ description: A professional site for Robert Dinterman, Postdoctoral Researcher a
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Courses:
-    - Econometrics: "courses/metrics"
-    - Macroeconomics: "courses/macro"
-    - Spatial Statistics: "courses/spatial"
-    - Sports Economics: "courses/sports"
+#  Courses:
+#    - Econometrics: "courses/metrics"
+#    - Macroeconomics: "courses/macro"
+#    - Spatial Statistics: "courses/spatial"
+#    - Sports Economics: "courses/sports"
   Research: "research"
   Teaching: #"teaching"
     - Purpose: "teaching"
