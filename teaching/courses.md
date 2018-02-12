@@ -14,14 +14,14 @@ Below are links to some materials used in each course as well as courses I am in
 * Required for all students in the College of Management, also this can satisfy a Humanities requirement for all students.
 * Not yet taught.
 
-## [EC 202 - Principles of Macroeconomics](http://www4.ncsu.edu/~rdinter/teaching_ec202.html)
+## EC 202 - Principles of Macroeconomics
 
 * Description - Aggregate economic analysis emphasizing current public policy issues. Determinants of level and rate of growth of total output. Causes of unemployment and business cycles, inflation, and exchange rate fluctuations. Effects of monetary policy (money supply) and fiscal policy (government spending, taxes, deficits) on these problems. Trade surpluses/deficits and impact of international events and policies on national economies.
 * Required for all students in the College of Management, also this can satisfy a Humanities requirement for all students.
 * Taught from Fall 2010 to Spring 2013 (5 total independent sections).
 * [Sample Syllabus](/teaching/docs/Syllabus%20003.pdf)
 
-## [EC 205 - Fundamentals of Economics](http://www4.ncsu.edu/~rdinter/teaching_ec205_.html)
+## EC 205 - Fundamentals of Economics
 
 * Description - Fundamental ideas in economics: scarcity, substitution, opportunity cost, marginal analysis, gross domestic product, real and nominal magnitudes. Supply and demand analysis. Microeconomic analysis of pricing in competitive and noncompetitive markets. Macroeconomic analysis of production, employment, the price level, and inflation. Monetary and fiscal policy and the stabilization of the economy. Comparative advantage and international trade.
 * This course can satisfy a Humanities requirement for most students.
@@ -36,14 +36,14 @@ Below are links to some materials used in each course as well as courses I am in
 * Taught in Spring and Summer I 2014 (2 total independent sections).
 * [Sample Syllabus](/teaching/docs/EC351_SI14_Syllabus.pdf)
 
-## [EC 495 - Sports Economics](http://www4.ncsu.edu/~rdinter/sports/index.html)
+## EC 495 - Sports Economics
 
 * Description - Economic analysis of athletic performance, sports teams, and leagues. Topics include athlete compensation, labor relations, antitrust issues, tournament theory, public funding of sports venues, and application of economic principles to sports settings.
 * Fulfills an Economics elective for students majoring in Agricultural Economics and Economics.
 * Taught Fall 2012 (1 independent section). This was a newly developed course at NC State and may be offered again in the future.
 * [Sample Syllabus](/teaching/docs/EC%20495%20-%20Sports%20Economics%20Syllabus.pdf)
 
-## [Short Course - GIS with R](http://www4.ncsu.edu/~rdinter/Spatial/index.html)
+## Short Course - GIS with R
 
 * Description - Use R to analyze spatial data, display maps, and better understand Geographic Information Systems. A low level of proficiency with R will be assumed and special attention will be devoted to using shapefiles, using [ggplot2](http://ggplot2.org/) to plot data, and using the [spdep](http://cran.r-project.org/web/packages/spdep/spdep.pdf) package in R.
 * Designed to help graduate students with any research that uses spatial methods.

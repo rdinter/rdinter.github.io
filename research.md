@@ -37,8 +37,8 @@ ABSTRACT: The aim of this paper is to establish the economic factors that drive 
 
 ### "Analyzing the Characteristics of the Next Generation of Farmers and Ranchers: a beginning farmers and ranchers typology," with Ani Katchova (The Ohio State University).
 
-ABSTRACT: 
+
 
 ### "You built it, but are they coming? Analyzing the impact of Minor League Baseball teams on Rural Communities," with Andrew Boslett (University of Rochester).
 
-ABSTRACT: 
+
