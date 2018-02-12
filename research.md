@@ -7,8 +7,8 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 
 # Publications
 
-- **Dinterman, R.**, A. Katchova, and J. Harris. "Financial Stress and Farm Bankruptcies in U.S. Agriculture." *Agricultural Finance Review*, forthcoming.
-- Katchova, A. and **R. Dinterman**. "Evaluating Financial Stress and Performance of Beginning Farmers during the Agricultural Downturn." *Agricultural Finance Review*, forthcoming.
+- **Dinterman, R.**, A. Katchova, and J. Harris. ["Financial Stress and Farm Bankruptcies in U.S. Agriculture."](/research/Financial stress and farm bankruptcies in US agriculture - Dinterman, Katchova, Harris.pdf) *Agricultural Finance Review* (2018).
+- Katchova, A. and **R. Dinterman**. ["Evaluating Financial Stress and Performance of Beginning Farmers during the Agricultural Downturn."](/research/Evaluating financial stress and performance of beginning farmers during the agricultural downturn - Katchova, Dinterman.pdf) *Agricultural Finance Review* (2018).
 - Eyer, J., **R. Dinterman**, A. Rose, and N. Miller. "The Effect of Disasters on Migration Destinations: Evidence from Hurricane Katrina." *Economics of Disasters and Climate Change*, forthcoming.
 - Demko, I., **Dinterman, R.**, Marez, M. and Jaenicke, E.C. 2017. ["U.S. Organic Trade from 2011 to 2016."](/research/OTATradeReport.pdf) The Ohio State University, Organic Trade Association and Penn State University, May 2017.
 - **Dinterman, R.**, and M. Renkow. ["Evaluation of USDA's Broadband Loan Programs: Impacts on broadband provision."](/research/Evaluation-of-USDAs-Broadband-Loan-Program-Dinterman-Renkow.pdf) *Telecommunications Policy* (2017).
