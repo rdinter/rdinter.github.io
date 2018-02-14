@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-My fields of interest are applied econometrics, spatial econometrics, agribusiness, and rural/urban development. In my dissertation, I study topics related to the economic impact of broadband deployment as well as interregional migration with a focus on using spatial econometric techniques in addressing these topics. I have expanded my research interests as a post-doctoral researcher at The Ohio State University to include agribusiness
+My fields of interest are applied econometrics, spatial econometrics, agribusiness, and rural/urban development. In my dissertation, I study topics related to the economic impact of broadband deployment as well as interregional migration with a focus on using spatial econometric techniques in addressing these topics. I have expanded my research interests as a post-doctoral researcher at The Ohio State University to include agribusiness and have focused on farmer financial stress, land valuations, and taxation issues related to property tax of agricultural land.
 
 # Publications
 
