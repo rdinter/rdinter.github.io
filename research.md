@@ -17,11 +17,11 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 
 # Working Papers
 
-### ["Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program."](/5-tax-incidence-paper.pdf) with Ani Katchova (The Ohio State University).
+### ["Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program."](/research/5-tax-incidence-paper.pdf) with Ani Katchova (The Ohio State University).
 
 ABSTRACT: Tax incidence of agricultural property tax measures the extent to which land owners can increase the rental rate that they offer to renters of the land. Property tax incidence provides a measure of the competitiveness of the agricultural land rental market. Ohio's Current Agricultural Use Value Program (CAUV) provides a unique method for determining the taxable value of agricultural land that is determined exogenously from market expectations of land value. This program allows for estimation of the property tax incidence on renters of agricultural land. Results indicate that cash rental rates in Ohio from 2008 through 2017 increased between \$0.38 to \$0.63 for each additional dollar of property tax levied on agricultural land which is similar to the related literature on government payment incidence.
 
-### ["Broadband, Local Employment, and Population Growth,"](/Paper-2.pdf)
+### ["Broadband, Local Employment, and Population Growth,"](/research/Paper-2.pdf)
 
 ABSTRACT: I investigate the relationship between broadband, employment, and population growth to determine the causal directions between these processes. Starting from the framework of simultaneous employment-population models, I introduce a model to account for the potential simultaneous process of broadband-employment-population for regional economies. The model is furthered by spatial econometric techniques and a causal interpretation is given between these three dynamic processes. By establishing a causal direction, the claim that broadband spurs job growth is quantitatively evaluated as well as other competing hypotheses across the three processes. Results indicate that broadband deployment is an endogenous process and correcting for endogeneity fails to find support of claims that assert broadband growth leads to employment growth for a region. This paper illuminates the need for structural models involving broadband in evaluating regional economic impacts.
 
