@@ -12,7 +12,7 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 - Eyer, J., **R. Dinterman**, A. Rose, and N. Miller. ["The Effect of Disasters on Migration Destinations: Evidence from Hurricane Katrina."](/research/Eyer_et_al-2018-Economics_of_Disasters_and_Climate_Change.pdf) *Economics of Disasters and Climate Change*, 2018.
 - Demko, I., **Dinterman, R.**, Marez, M. and Jaenicke, E.C. 2017. ["U.S. Organic Trade from 2011 to 2016."](/research/OTATradeReport.pdf) The Ohio State University, Organic Trade Association and Penn State University, May 2017.
 - **Dinterman, R.**, and M. Renkow. ["Evaluation of USDA's Broadband Loan Programs: Impacts on broadband provision."](/research/Evaluation-of-USDAs-Broadband-Loan-Program-Dinterman-Renkow.pdf) *Telecommunications Policy* (2017).
-- Pender, J., and **R. Dinterman**. "Developing a Typology of Wealth Creation Approaches and Contexts: Hypotheses and an example for the case of attracting retirees," in  John L. Pender, Bruce A. Weber, Thomas G. Johnson, and J. Matthew Fannin (eds.), *Rural Wealth Creation*, Taylor \& Francis, 2014: 269--290.
+- Pender, J., and **R. Dinterman**. "Developing a Typology of Wealth Creation Approaches and Contexts: Hypotheses and an example for the case of attracting retirees," in  John L. Pender, Bruce A. Weber, Thomas G. Johnson, and J. Matthew Fannin (eds.), *Rural Wealth Creation*, Taylor & Francis, 2014: 269--290.
 - Stenberg, P., and **R. Dinterman**. "The Digital Economy in the Western United States," *Rural Connections*, vol. 6, no. 1 (September 2011): 43--48.
 
 # Working Papers
