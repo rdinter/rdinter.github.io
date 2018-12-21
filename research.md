@@ -17,28 +17,25 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 
 # Working Papers
 
-### ["Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program."](/research/5-tax-incidence-paper.pdf) with Ani Katchova (The Ohio State University).
+### ["Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program"](/research/Property Tax Incidence on Cropland Cash Rent - Dinterman.pdf) with Ani Katchova (The Ohio State University).
 
 ABSTRACT: Tax incidence of agricultural property tax measures the extent to which land owners can increase the rental rate that they offer to renters of the land. Property tax incidence provides a measure of the competitiveness of the agricultural land rental market. Ohio's Current Agricultural Use Value Program (CAUV) provides a unique method for determining the taxable value of agricultural land that is determined exogenously from market expectations of land value. This program allows for estimation of the property tax incidence on renters of agricultural land. Results indicate that cash rental rates in Ohio from 2008 through 2017 increased between \$0.38 to \$0.63 for each additional dollar of property tax levied on agricultural land which is similar to the related literature on government payment incidence.
 
-### ["Broadband, Local Employment, and Population Growth,"](/research/Paper-2.pdf)
+### ["Survival Analysis of Farm Bankruptcy Filings: An examination of chapter 12 filing trends"](/research/5-survival-submission.pdf) with Ani Katchova (The Ohio State University).
+
+ABSTRACT: We examine trends in bankruptcy completion times and financial characteristics for farmers filing for chapter 12 bankruptcy after it became a permanent fixture in bankruptcy law to assess justifications for the recently enacted Family Farmer Bankruptcy Clarification Act of 2017 (FFBCA). Since 2007, chapter 12 filers have seen noticeable increases in their debts levels whereas alternative business bankruptcies have either stagnated or declined in their debts. Using survival analysis methods to correct for the censored nature of open cases, we find that average time to completion has consistently been longer for chapter 12 than the comparable chapters (7, 11, and 13) of business bankruptcies. Although chapter 12 completion times have not been increasing over time, we find that chapter 7 and 11 completion times have been declining over time for comparable businesses. Our results are consistent with claims that farmers have had rising debt levels in comparison to similar businesses filing for bankruptcy and corroborate claims that farmers in financial stress have had a more difficult time restructuring through chapter 12.
+
+### ["Broadband, Local Employment, and Population Growth"](/research/Paper-2.pdf)
 
 ABSTRACT: I investigate the relationship between broadband, employment, and population growth to determine the causal directions between these processes. Starting from the framework of simultaneous employment-population models, I introduce a model to account for the potential simultaneous process of broadband-employment-population for regional economies. The model is furthered by spatial econometric techniques and a causal interpretation is given between these three dynamic processes. By establishing a causal direction, the claim that broadband spurs job growth is quantitatively evaluated as well as other competing hypotheses across the three processes. Results indicate that broadband deployment is an endogenous process and correcting for endogeneity fails to find support of claims that assert broadband growth leads to employment growth for a region. This paper illuminates the need for structural models involving broadband in evaluating regional economic impacts.
 
 # Works In Progress
 
-### "The Effect of High-Speed Internet on U.S. Farms: An Evaluation of the USDA Broadband Loan Program," with Ivan Kandilov (NC State), Mitch Renkow (NC State), Peter Stenberg (USDA-ERS).
+### "The Effect of High-Speed Internet on U.S. Farms: An Evaluation of the USDA Broadband Loan Program" with Ivan Kandilov (NC State), Mitch Renkow (NC State), Peter Stenberg (USDA-ERS).
 
 ABSTRACT: While there is some evidence that broadband can increase total employment for a region, the aim of this paper is to focus on productivity gains of existing workers and not the effects of higher-skilled workers migrating to a region. Further emphasis is placed on evaluating the effectiveness of the United States Department of Agriculture (USDA) broadband loan program in increasing the broadband availability for under-served areas. By exploiting spatial variation in the deployment rates, the effects of broadband on farmers can be identified as certain areas experienced more growth in broadband infrastructure as others throughout the late 1990s and early 2000s. The measure of productivity for the impact of broadband is from farm level data from the Agricultural Resource Management Survey (ARMS) provided by the USDA.
 
-### "Measuring the Impact of Migration Flows: A Spatial Origin-to-Destination Model of Interregional Movement."
+### "Measuring the Impact of Migration Flows: A Spatial Origin-to-Destination Model of Interregional Movement"
 
 ABSTRACT: The aim of this paper is to establish the economic factors that drive migration between counties in the United States and to exploit these factors to estimate the economic impact that migrants have on a region's economy. The identification procedure in this paper takes two stages. The first stage estimates the determinants of bilateral migration flows between all county pairs in the United States. Then using these predicted flows, the predicted net migration for each county can be estimated by summing across all possible county flows from the first stage. The second stage uses these predicted net migration flows for each county as an instrument in an equation predicting changes in economic measurables for the county level. The second stage omits the origin county's characteristics as a way to isolate effects of net-migration on economic variables (number of firms, total employment, average wage, median home value, and total tax revenues)
-
-### "Analyzing the Characteristics of the Next Generation of Farmers and Ranchers: a beginning farmers and ranchers typology," with Ani Katchova (The Ohio State University).
-
-
-
-### "You built it, but are they coming? Analyzing the impact of Minor League Baseball teams on Rural Communities," with Andrew Boslett (University of Rochester).
-
 
