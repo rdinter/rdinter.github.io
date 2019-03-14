@@ -7,19 +7,16 @@ My fields of interest are applied econometrics, spatial econometrics, agribusine
 
 # Publications
 
-- **Dinterman, R.**, A. Katchova, and J. Harris. ["Financial Stress and Farm Bankruptcies in U.S. Agriculture."](/research/Financial stress and farm bankruptcies in US agriculture - Dinterman, Katchova, Harris.pdf) *Agricultural Finance Review* (2018).
-- Katchova, A. and **R. Dinterman**. ["Evaluating Financial Stress and Performance of Beginning Farmers during the Agricultural Downturn."](/research/Evaluating financial stress and performance of beginning farmers during the agricultural downturn - Katchova, Dinterman.pdf) *Agricultural Finance Review* (2018).
-- Eyer, J., **R. Dinterman**, A. Rose, and N. Miller. ["The Effect of Disasters on Migration Destinations: Evidence from Hurricane Katrina."](/research/Eyer_et_al-2018-Economics_of_Disasters_and_Climate_Change.pdf) *Economics of Disasters and Climate Change*, 2018.
+- **Dinterman, R.** and A.L. Katchova. ["Property Tax Incidence on Cropland Cash Rent."](/research/6-tax-incidence-revise-3.pdf) *Applied Economic Perspectives and Policy*, forthcoming. [https://doi.org/10.1093/aepp/ppz004](https://doi.org/10.1093/aepp/ppz004)
+- **Dinterman, R.**, A.L. Katchova, and J. Harris. ["Financial Stress and Farm Bankruptcies in U.S. Agriculture."](/research/Financial stress and farm bankruptcies in US agriculture - Dinterman, Katchova, Harris.pdf) *Agricultural Finance Review* (2018). [https://doi.org/10.1108/AFR-05-2017-0030](https://doi.org/10.1108/AFR-05-2017-0030)
+- Katchova, A.L. and **R. Dinterman**. ["Evaluating Financial Stress and Performance of Beginning Farmers during the Agricultural Downturn."](/research/Evaluating financial stress and performance of beginning farmers during the agricultural downturn - Katchova, Dinterman.pdf) *Agricultural Finance Review* (2018). [https://doi.org/10.1108/AFR-08-2017-0074](https://doi.org/10.1108/AFR-08-2017-0074)
+- Eyer, J., **R. Dinterman**, A. Rose, and N. Miller. ["The Effect of Disasters on Migration Destinations: Evidence from Hurricane Katrina."](/research/Eyer_et_al-2018-Economics_of_Disasters_and_Climate_Change.pdf) *Economics of Disasters and Climate Change*, 2018. [https://doi.org/10.1007/s41885-017-0020-3](https://doi.org/10.1007/s41885-017-0020-3)
 - Demko, I., **Dinterman, R.**, Marez, M. and Jaenicke, E.C. 2017. ["U.S. Organic Trade from 2011 to 2016."](/research/OTATradeReport.pdf) The Ohio State University, Organic Trade Association and Penn State University, May 2017.
-- **Dinterman, R.**, and M. Renkow. ["Evaluation of USDA's Broadband Loan Programs: Impacts on broadband provision."](/research/Evaluation-of-USDAs-Broadband-Loan-Program-Dinterman-Renkow.pdf) *Telecommunications Policy* (2017).
+- **Dinterman, R.**, and M. Renkow. ["Evaluation of USDA's Broadband Loan Programs: Impacts on broadband provision."](/research/Evaluation-of-USDAs-Broadband-Loan-Program-Dinterman-Renkow.pdf) *Telecommunications Policy* (2017). [https://doi.org/10.1016/j.telpol.2016.12.004](https://doi.org/10.1016/j.telpol.2016.12.004)
 - Pender, J., and **R. Dinterman**. "Developing a Typology of Wealth Creation Approaches and Contexts: Hypotheses and an example for the case of attracting retirees," in  John L. Pender, Bruce A. Weber, Thomas G. Johnson, and J. Matthew Fannin (eds.), *Rural Wealth Creation*, Taylor & Francis, 2014: 269--290.
 - Stenberg, P., and **R. Dinterman**. "The Digital Economy in the Western United States," *Rural Connections*, vol. 6, no. 1 (September 2011): 43--48.
 
 # Working Papers
-
-### ["Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program"](/research/Property Tax Incidence on Cropland Cash Rent - Dinterman.pdf) with Ani Katchova (The Ohio State University).
-
-ABSTRACT: Tax incidence of agricultural property tax measures the extent to which land owners can increase the rental rate that they offer to renters of the land. Property tax incidence provides a measure of the competitiveness of the agricultural land rental market. Ohio's Current Agricultural Use Value Program (CAUV) provides a unique method for determining the taxable value of agricultural land that is determined exogenously from market expectations of land value. This program allows for estimation of the property tax incidence on renters of agricultural land. Results indicate that cash rental rates in Ohio from 2008 through 2017 increased between \$0.38 to \$0.63 for each additional dollar of property tax levied on agricultural land which is similar to the related literature on government payment incidence.
 
 ### ["Survival Analysis of Farm Bankruptcy Filings: An examination of chapter 12 filing trends"](/research/5-survival-submission.pdf) with Ani Katchova (The Ohio State University).
 
