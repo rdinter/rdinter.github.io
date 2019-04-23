@@ -30,7 +30,7 @@ navbar-links:
 #    - Spatial Statistics: "courses/spatial"
 #    - Sports Economics: "courses/sports"
   Research: "research"
-  Teaching: #"teaching"
+  Teaching: "teaching"
     - Purpose: "teaching"
     - Philosophy: "teaching/philosophy"
     - Methods: "teaching/methods"
