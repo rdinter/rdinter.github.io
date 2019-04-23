@@ -45,7 +45,7 @@ avatar: "/img/github-avatar.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/github-avatar.jpeg"
+# title-img: "/img/github-avatar.jpeg"
 
 
 # --- Background colour/image options --- #
