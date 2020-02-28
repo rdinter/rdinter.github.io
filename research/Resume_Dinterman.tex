@@ -1,0 +1,281 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Robert Dinterman}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://robertdinterman.com/research/Resume_Dinterman.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, regional economics, spatial econometrics, agricultural economics},
+  pdftitle = {\name: Resume},
+  pdfsubject = {Resume},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://aede.osu.edu/home}{The Ohio State University} \\
+  Department of Agricultural, \\
+  Environmental, and Development \\
+  Economics (AEDE) \\
+  % Agricultural Administration Building \\
+  2120 Fyffe Road, Room 334 \\
+  Columbus, OH 43210-1067
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (919) 627-8622 \\
+    % Fax: &  (919) 513-5613 \\
+    Email: & \href{mailto:robert.dinterman@gmail.com}{\tt robert.dinterman@gmail.com} \\
+    Webpage: & \href{http://robertdinterman.com/}{\tt http://robertdinterman.com/} \\
+  \end{tabular}
+\end{minipage}
+
+
+% \section*{Personal}
+% 
+% \begin{itemize}
+% \item Born on September 29, 1895.
+% \item United States Citizen.
+% \end{itemize}
+% 
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Economics, North Carolina State University, 2016.
+    \subitem Fields: Regional Economics, Spatial Econometrics, and Applied Econometrics
+    %\subitem [Advanced level courses in Spatial Statistics]
+
+  \item M.E. Economics, North Carolina State University, 2011.
+
+  \item B.A. Philosophy \& Economics, Clemson University, 2008.
+\end{itemize}
+
+\section*{Proficiencies}
+\begin{itemize}
+\item Expert: R.
+\item Advanced: GIS, Git, \LaTeX, Matlab, SAS, and SQL.
+\item Intermediate: ArcGIS, Microsoft Office, Python, and Stata.
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}
+\item Econometric Analysis
+\item Forecasting
+\item Machine Learning
+\item Spatial Statistics
+\end{itemize}
+
+
+\section*{Employment}
+\begin{itemize}
+\item The Ohio State University:
+\begin{itemize}
+\item Post-Doctoral Researcher in Agribusiness, Department of Agricultural, Environmental, and Development Economics and \href{http://aede.osu.edu/programs/farm-income-enhancement-program}{Farm Income Enhancement Program}, 2016 -- present.
+\end{itemize}
+\end{itemize}
+
+\subsection*{Research Experience}
+\begin{itemize}
+\item United States Department of Agriculture - Economic Research Services:
+\begin{itemize}
+\item Economist, Summer 2011, Summer 2012, and Summer 2014.
+\end{itemize}
+
+\item North Carolina State University, Department of Economics:
+\begin{itemize}
+\item Research Assistant, Chatham Park Economic Impact (Michael L. Walden), Fall 2014.
+\item Research Assistant, Various Projects (Mitch Renkow), Fall 2013.
+\item Research Assistant, Network Structure of Biopharmaceutical Patents (Turanay Caner), Fall 2010.
+\end{itemize}
+
+\item National Bureau of Economic Research:
+\begin{itemize}
+\item Research Assistant, Statistical Methods in Integrated Assessment Models (Michael J. Roberts), Summer 2010.
+\end{itemize}
+\end{itemize}
+
+% \subsection*{Teaching Experience}
+% \begin{itemize}
+% \item North Carolina State University, Department of Economics:
+% \begin{itemize}
+% \item Instructor, EC 495 (Topics in Sports Economics), Fall 2012.
+% \item Instructor, EC 351 (Introduction to Econometrics), Spring 2014 -- Summer 2014.
+% \item Instructor, EC 202 (Principles of Macroeconomics), Fall 2010 -- Summer 2013.
+% \item Teaching Assistant, EC 205 (Fundamentals of Economics), Fall 2009 -- Spring 2010.
+% \end{itemize}
+% 
+% \item Campbell University (Buies Creek, NC), Lundy-Fetterman School of Business:
+% \begin{itemize}
+% \item Lecturer, (Sports Economics, Principles of Macroeconomics), Spring 2014.
+% \end{itemize}
+% \end{itemize}
+
+\section*{Professional Associations}
+
+\begin{itemize}
+\item Member:
+  \begin{itemize}
+  \item Agricultural \& Applied Economics Association (AAEA).
+  \item Southern Regional Sciences Association (SRSA).
+  \end{itemize}
+\item Reviewer:
+  \begin{itemize}
+  \item Agricultural Economics.
+  \item American Journal of Agricultural Economics (AJAE).
+  \item Applied Economic Perspectives and Policy (AEPP).
+  \item Canadian Journal of Agricultural Economics (CJAE).
+  \item Journal of Agriculture and Applied Economics (JAAE).
+  \end{itemize}
+\item Judge: \href{http://hack.osu.edu/2016/}{HackOHI/O}.
+\end{itemize}
+
+\section*{Publications}
+
+\begin{itemize}
+\item \textbf{Dinterman, R.} and A.L. Katchova. ``Property Tax Incidence on Cropland Cash Rent.'' \emph{Applied Economic Perspectives and Policy}, forthcoming. \href{https://doi.org/10.1093/aepp/ppz004}{https://doi.org/10.1093/aepp/ppz004}
+\item \textbf{Dinterman, R.}, A.L. Katchova, and J. Harris. ``Financial Stress and Farm Bankruptcies in U.S. Agriculture.'' \emph{Agricultural Finance Review}, 78(2018). \href{https://doi.org/10.1108/AFR-05-2017-0030}{https://doi.org/10.1108/AFR-05-2017-0030}
+\item Katchova, A.L. and \textbf{R. Dinterman}. ``Evaluating Financial Stress and Performance of Beginning Farmers during the Agricultural Downturn.'' \emph{Agricultural Finance Review}, 78(2018). \href{https://doi.org/10.1108/AFR-08-2017-0074}{https://doi.org/10.1108/AFR-08-2017-0074}
+\item Eyer, J., \textbf{R. Dinterman}, A. Rose, and N. Miller. ``The Effect of Disasters on Migration Destinations: Evidence from Hurricane Katrina.'' \emph{Economics of Disasters and Climate Change}, 2(1), 91-106. \href{https://doi.org/10.1007/s41885-017-0020-3}{https://doi.org/10.1007/s41885-017-0020-3}
+\item \textbf{Dinterman, R.} and M. Renkow. ``Evaluation of USDA Broadband Loan Programs: Impacts on broadband provision.'' \emph{Telecommunications Policy} (2016). \href{https://doi.org/10.1016/j.telpol.2016.12.004}{https://doi.org/10.1016/j.telpol.2016.12.004}
+\item Pender, J., and \textbf{R. Dinterman}. ``Developing a Typology of Wealth Creation Approaches and Contexts: Hypotheses and an example for the case of attracting retirees,'' in  John L. Pender, Bruce A. Weber, Thomas G. Johnson, and J. Matthew Fannin (eds.), \emph{Rural Wealth Creation}, Taylor \& Francis, 2014: 269--290.
+\item Stenberg, P., and \textbf{R. Dinterman}. ``The Digital Economy in the Western United States,'' \emph{Rural Connections}, vol. 6, no. 1 (September 2011): 43--48.
+\end{itemize}
+
+
+% \subsection*{Presentations}
+% 
+% \begin{itemize}
+% \item ``Farmer Bankruptcy Trends Post-2007,'' NC-1177 Agricultural and Rural Finance Markets in Transition: St Louis, MO 10 October 2018.
+% \item ``Farm financial stress in the face of changing growing conditions,'' NC-1177 Agricultural and Rural Finance Markets in Transition: St Louis, MO 9 October 2018.
+% \item ``Farm financial stress in the face of changing growing conditions,'' Agricultural and Applied Economics Association (AAEA) Conference: Washington, DC August 2018.
+% \item ``Survival Analysis of Farm Bankruptcy Filings,'' Agricultural and Applied Economics Association (AAEA) Conference: Washington, DC August 2018.
+% \item ``Taxation Incidence on Rented Agricultural Land: An Evaluation of Ohio's Current Agricultural Use Value Program.'' NC-1177 Agricultural and Rural Finance Markets in Transition: Minneapolis, MN 3 October 2017.
+% \item ``Farm Bankruptcies and Land Value Trends: The Effects of Land Value Fluctuations on Financial Stress,'' Agricultural and Applied Economics Association (AAEA) Conference: Chicago, IL 1 August 2017.
+% \item ``What influences the destination of disaster migrants? Evidence from Hurricane Katrina,'' Association of Environmental and Resource Economists (AERE) Annual Summer Conference: Pittsburgh, PA 2 June 2017.
+% \item ``Financial Stress and Farm Bankruptcies in U.S. Agriculture,'' NC-1177 Agricultural and Rural Finance Markets in Transition: Denver, CO 3 October 2016.
+% \item ``Broadband, Local Employment, and Population Growth,'' North American Meetings of the Regional Science (NARSC) Association International: Washington, DC 15 November 2014.
+% \item ``A Spatiotemporal Model of Firm Growth and Broadband Availability: Evidence from North Carolina,'' Southern Regional Sciences Association (SRSA) Meetings: San Antonio, TX 28 March 2014.
+% \item ``Attracting Retirees as a Rural Development Strategy: Identifying and Mapping the Potential,'' Southern Regional Sciences Association (SRSA) Meetings: Washington, DC 5 April 2013.
+% \end{itemize}
+
+\section*{Outreach}
+
+\begin{itemize}
+\item Dinterman, R., and A.L. Katchova, \href{https://aede.osu.edu/sites/aede/files/publication_files/CAUVProjectionsReport2019.pdf}{``Ohio CAUV Value Projections for 2019 and 2020,''} Report, Department of Agricultural, Environmental Economics, The Ohio State University, May 2019.
+\item Dinterman, R., and A.L. Katchova, \href{https://www.farmermac.com/wp-content/uploads/The-Feed-Spring-2019.pdf}{``An Update on Farm Bankruptcies,''} Farmer Mac - The Feed, Spring 2019.
+\item \textbf{Dinterman, R.}, and A.L. Katchova, ``\href{https://aede.osu.edu/sites/aede/files/publication_files/2018CAUVProjectionsReport.pdf}{Ohio CAUV Value Projections for 2018}.'' Report, Department of Agricultural, Environmental Economics, The Ohio State University, February 2018.
+\item \href{https://aede.osu.edu/news/cauv-values-agricultural-land-are-expected-decline-112-acre-average}{CAUV Values are Expected to Decline by 11.2\% on Average}, OSU-AEDE, 2018
+\item Dinterman, R., and A.L. Katchova, \href{https://www.farmermac.com/wp-content/uploads/The-Feed-Spring-2017.pdf}{``Farm Bankruptcies Over Time,''} Farmer Mac - The Feed, Spring 2017.
+\item Dinterman, R., and A.L. Katchova, \href{https://aede.osu.edu/sites/aede/files/publication_files/Farm%20Bankruptcies%20-%20Policy%20Brief.pdf}{``Farm Bankruptcies in the United States,''} OSU-AEDE Policy Brief, April 2017.
+\item Demko, I., \textbf{R. Dinterman}, M. Marez, and E.C. Jaenicke. ``\href{https://ota.com/sites/default/files/indexed_files/OTATradeReport_10-30-2017.pdf}{U.S. Organic Trade from 2011 to 2016}.'' The Ohio State University, Organic Trade Association and Penn State University, May 2017.
+\item \href{https://aede.osu.edu/news/farm-income-expected-rise}{Farm Income Expected to Rise}, OSU-AEDE, 2017.
+\item \href{https://aede.osu.edu/news/bumper-profits-arent-predicted-ohio-farmers-ag-economy-not-repeating-1980s}{Bumper Profits Aren't Predicted for Ohio Farmers but the Ag Economy is not Repeating the 1980s}, OSU-AEDE, 2017.
+\item \href{https://aede.osu.edu/news/farm-bankruptcies-could-rise}{Farm Bankruptcies Could Rise}, OSU-AEDE, 2017.
+\end{itemize}
+
+
+% \newpage
+
+\section*{References}
+
+\begin{multicols}{2}
+\begin{itemize}
+\item Ani Katchova \\ Associate Professor and \\ Farm Income Enhancement Chair \\ The Ohio State University \\ \href{mailto:katchova.1@osu.edu}{\tt katchova.1@osu.edu} \\ Office: (614) 292-6229
+\item Barry K. Goodwin \\ William Neal Reynolds Distinguished Professor \\ North Carolina State University \\ \href{mailto:barry\_goodwin@ncsu.edu}{\tt barry\_goodwin@ncsu.edu} \\ Office: (919) 515-4620
+
+\item Mitch Renkow \\ Professor of Agricultural and \\ Resource Economics \\ North Carolina State University \\ \href{mailto:mitch\_renkow@ncsu.edu}{\tt mitch\_renkow@ncsu.edu} \\ Office: (919) 515-5179
+\item Ivan Kandilov \\ Associate Professor of Agricultural and Resource Economics \\ North Carolina State University \\ \href{mailto:ivan\_kandilov@ncsu.edu}{\tt ivan\_kandilov@ncsu.edu} \\ Office: (919) 513-3713
+% \item Tamah Morant (Teaching) \\ Associate Dean for Undergraduate Programs, \\ Teaching Associate Professor, Graduate Faculty \\ North Carolina State University \\ \href{mailto:tamah\_morant@ncsu.edu}{\tt tamah\_morant@ncsu.edu} \\ Office: (919) 515-5565
+\end{itemize}
+\end{multicols}
+
+% \subsection*{Teaching}
+% \begin{itemize}
+% \item David Hyman \\ Alumni Distinguished Undergraduate Professor of Economics \\ North Carolina State University \\ \href{mailto:david\_hyman@ncsu.edu}{\tt david\_hyman@ncsu.edu} \\ Office: (919) 513-2868
+% \item Tamah Morant \\ Economics Graduate Programs Director \\ North Carolina State University \\ \href{mailto:tamah\_morant@ncsu.edu}{\tt tamah\_morant@ncsu.edu} \\ Office: (919) 515-4616
+% \end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{http://robertdinterman.com/research/Resume\_Dinterman.pdf}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
